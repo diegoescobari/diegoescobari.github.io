@@ -19,7 +19,7 @@ permalink: /publications/
 
 #pubList,
 #pubList .pub-entry {
-  opacity: 1 !important;
+  opacity: 0 !important;
   transform: none !important;
   visibility: visible !important;
   overflow: visible !important;
