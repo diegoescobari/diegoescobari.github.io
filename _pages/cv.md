@@ -1,6 +1,6 @@
 ---
 title: "C.V."
-layout: gridlay
+layout: page
 sitemap: false
 permalink: /cv/
 ---
