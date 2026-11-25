@@ -185,12 +185,6 @@ document.addEventListener("DOMContentLoaded", function () {
 <input type="text" class="pub-search" id="pubSearch" placeholder="Filter by title, author, or year...">
 
 <div id="pubList">
-<div class="section-card pub-section">
-<h2>Working Papers</h2>
-
-{% bibliography --query @unpublished %}
-
-</div>
 
 <div class="section-card pub-section">
 <h2>Refereed Journal Articles</h2>
@@ -215,6 +209,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
 <div class="section-card pub-section">
 <h2>Non-Refereed Publications</h2>
+
+<div class="section-card pub-section">
+<h2>Working Papers</h2>
+
+{% bibliography --query @unpublished %}
+
+</div>
 
 {% bibliography --query @misc %}
 
