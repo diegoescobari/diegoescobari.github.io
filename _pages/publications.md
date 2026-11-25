@@ -6,7 +6,7 @@ permalink: /publications/
 
 # Publications
 
-<!-- NEW: 4-category filter bar (Topic, Econometric Method, Year in 5-year intervals, Other) -->
+{::nomarkdown}
 <div id="pub-filters" class="pub-filters">
   <div class="filter-group" data-cat="topic"><strong>Topic:</strong> <span class="filter-pills"></span></div>
   <div class="filter-group" data-cat="method"><strong>Econometric Method:</strong> <span class="filter-pills"></span></div>
@@ -14,9 +14,7 @@ permalink: /publications/
   <div class="filter-group" data-cat="other"><strong>Other:</strong> <span class="filter-pills"></span></div>
   <button type="button" id="reset-filters" class="reset-btn">Reset All Filters</button>
 </div>
-<!-- END NEW -->
 
-<!-- NEW: Styling for the 4-category filter bar and color-coded tag pills -->
 <style>
   .pub-filters {
     background: #f8fafc;
@@ -47,7 +45,6 @@ permalink: /publications/
     cursor: pointer;
     transition: all 0.15s ease;
   }
-  /* Color coding by category */
   .tag-method, .filter-group[data-cat="method"] .filter-pill { border-color: #1d4ed8; color: #1d4ed8; }
   .filter-group[data-cat="year"] .filter-pill { border-color: #475569; color: #475569; }
   .tag-other, .filter-group[data-cat="other"] .filter-pill { border-color: #b45309; color: #b45309; }
@@ -79,16 +76,13 @@ permalink: /publications/
   }
   .reset-btn:hover { background: #0f172a; }
 </style>
-<!-- END NEW -->
 
-<!-- NEW: JavaScript for 4-category filtering and automatic 5-year intervals -->
 <script>
 document.addEventListener("DOMContentLoaded", function () {
   const categories = ["topic", "method", "year", "other"];
   const active = { topic: null, method: null, year: null, other: null };
   const entries = document.querySelectorAll(".pub-entry");
 
-  // Map a 4-digit year to its 5-year interval (e.g., 2006-2010, 2011-2015, ..., 2026-2030)
   function getYearInterval(yearStr) {
     const y = parseInt(yearStr, 10);
     if (isNaN(y)) return "";
@@ -97,7 +91,6 @@ document.addEventListener("DOMContentLoaded", function () {
     return `${start}-${end}`;
   }
 
-  // 1. Collect unique values per category
   const maps = { topic: new Map(), method: new Map(), year: new Map(), other: new Map() };
 
   entries.forEach(entry => {
@@ -118,7 +111,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 
-  // 2. Populate filter rows
   categories.forEach(cat => {
     const group = document.querySelector(`.filter-group[data-cat="${cat}"]`);
     const container = group.querySelector(".filter-pills");
@@ -129,7 +121,6 @@ document.addEventListener("DOMContentLoaded", function () {
       return;
     }
 
-    // Sort 5-year intervals newest-first; other categories alphabetically
     items.sort((a, b) => cat === "year" ? b[0].localeCompare(a[0]) : a[1].localeCompare(b[1]));
 
     items.forEach(([val, label]) => {
@@ -143,7 +134,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 
-  // 3. Apply combined filters (AND across categories)
   function applyFilters() {
     entries.forEach(entry => {
       const listItem = entry.closest("li") || entry;
@@ -158,14 +148,12 @@ document.addEventListener("DOMContentLoaded", function () {
       listItem.style.display = matches ? "" : "none";
     });
 
-    // Sync active highlight on both top bar and paper tags
     document.querySelectorAll(".filter-pill, .pub-tag-btn").forEach(btn => {
       const cat = btn.dataset.cat;
       btn.classList.toggle("active", active[cat] === btn.dataset.val);
     });
   }
 
-  // 4. Click handlers
   document.addEventListener("click", function (e) {
     const btn = e.target.closest(".filter-pill, .pub-tag-btn");
     if (btn) {
@@ -181,7 +169,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 </script>
-<!-- END NEW -->
+{:/}
 
 <input type="text" class="pub-search" id="pubSearch" placeholder="Filter by title, author, or year...">
 
