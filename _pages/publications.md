@@ -17,13 +17,18 @@ permalink: /publications/
 
 <style>
 
+.fade-in-section,
 #pubList,
+#pubList .pub-section,
 .pub-entry {
   opacity: 1 !important;
   transform: none !important;
   visibility: visible !important;
   overflow: visible !important;
   max-height: none !important;
+}
+.pub-section {
+  margin-bottom: 24px;
 }
   
   .pub-filters {
@@ -180,28 +185,38 @@ document.addEventListener("DOMContentLoaded", function () {
 <input type="text" class="pub-search" id="pubSearch" placeholder="Filter by title, author, or year...">
 
 <div id="pubList">
-  <div class="section-card pub-section">
-    <h2>Working Papers</h2>
-    {% bibliography --query @unpublished %}
-  </div>
+<div class="section-card pub-section">
+<h2>Working Papers</h2>
 
-  <div class="section-card pub-section">
-    <h2>Refereed Journal Articles</h2>
-    {% bibliography --query @article %}
-  </div>
+{% bibliography --query @unpublished %}
 
-  <div class="section-card pub-section">
-    <h2>Book Chapters</h2>
-    {% bibliography --query @incollection %}
-  </div>
+</div>
 
-  <div class="section-card pub-section">
-    <h2>Refereed Conference Proceedings</h2>
-    {% bibliography --query @inproceedings %}
-  </div>
+<div class="section-card pub-section">
+<h2>Refereed Journal Articles</h2>
 
-  <div class="section-card pub-section">
-    <h2>Non-Refereed Publications</h2>
-    {% bibliography --query @misc %}
-  </div>
+{% bibliography --query @article %}
+
+</div>
+
+<div class="section-card pub-section">
+<h2>Book Chapters</h2>
+
+{% bibliography --query @incollection %}
+
+</div>
+
+<div class="section-card pub-section">
+<h2>Refereed Conference Proceedings</h2>
+
+{% bibliography --query @inproceedings %}
+
+</div>
+
+<div class="section-card pub-section">
+<h2>Non-Refereed Publications</h2>
+
+{% bibliography --query @misc %}
+
+</div>
 </div>
