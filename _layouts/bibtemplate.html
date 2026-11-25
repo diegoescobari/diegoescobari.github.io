@@ -46,8 +46,7 @@
      data-method="{{ entry.method | downcase }}"
      data-year="{{ entry.year }}"
      data-other="{{ entry.other | downcase }}">
-  {% if entry.year %}<span class="year-badge">{{ entry.year }}</span>{% endif %}
-  <div class="text-justify">{{ ref }}</div>
+<div class="text-justify">{{ ref }}</div>
 
 <div class="pub-actions">
     {% if entry.doi and entry.doi != arxiv_id %}<a href="https://doi.org/{{ entry.doi }}" target="_blank" class="btn-pill btn-doi">DOI</a>{% endif %}
