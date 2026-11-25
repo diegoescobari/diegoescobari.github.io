@@ -16,9 +16,13 @@ permalink: /
 <a href="{{ '/research' | relative_url }}" class="chip">Nanotechnology</a>
 </div>
 
-Theoretical physics is a branch of physics that focuses on the development of mathematical models and theories to understand and explain natural phenomena.
-It plays a crucial role in our understanding of the fundamental laws of the universe and the fundamental particles that make up all matter.
-Research in theoretical physics helps us to make predictions about how the universe works and to test these predictions through experiments.
+I am an applied econometrician who is fascinated with working with data to draw inferences and explore economic questions. Most of my research focuses on studying demand, as well as explaining pricing and interactions in markets with individual level data. I have empirical and theoretical work on various aspects of pricing, including pricing under uncertainty, peak-load pricing, dynamic pricing, refund contracts, dynamic price discrimination, spatial competition, asymmetric pricing, bundling, loyalty programs, and explosiveness and bubbles.
+
+Many of the tools and insights in my work to understand pricing and demand uses data from airlines. I also explored other markets, including contributions to explain behavior in real estate markets and investments. I am also interested on peer-to-peer lending markets and information systems.
+
+I obtained my PhD in Economics from Texas A&M University. I am currently the Vice President and President-elect of the Society of Bolivian Economists as well as the PhD Program Director and Professor of Economics in the Robert C. Vackar College of Business & Entrepreneurship at The University of Texas Rio Grande Valley. I regularly teach undergraduate and PhD econometrics classes.
+
+Please use this website to find the links to my research papers and learn about my teaching. Thank you for taking the time.
 
 <div class="callout callout-success" markdown="0">
 <div class="callout-title">{% include icon.html name="award" class="callout-icon" %} Nobel Prize in Physics, 1965</div>
