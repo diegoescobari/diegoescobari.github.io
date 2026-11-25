@@ -6,102 +6,182 @@ permalink: /publications/
 
 # Publications
 
-<div id="tag-filter-bar" class="tag-filter-bar">
-  <button type="button" class="filter-pill active" data-tag="all">All</button>
+<!-- NEW: 4-category filter bar (Topic, Econometric Method, Year in 5-year intervals, Other) -->
+<div id="pub-filters" class="pub-filters">
+  <div class="filter-group" data-cat="topic"><strong>Topic:</strong> <span class="filter-pills"></span></div>
+  <div class="filter-group" data-cat="method"><strong>Econometric Method:</strong> <span class="filter-pills"></span></div>
+  <div class="filter-group" data-cat="year"><strong>Year:</strong> <span class="filter-pills"></span></div>
+  <div class="filter-group" data-cat="other"><strong>Other:</strong> <span class="filter-pills"></span></div>
+  <button type="button" id="reset-filters" class="reset-btn">Reset All Filters</button>
 </div>
+<!-- END NEW -->
 
+<!-- NEW: Styling for the 4-category filter bar and color-coded tag pills -->
 <style>
-  .tag-filter-bar {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    margin: 16px 0 24px;
+  .pub-filters {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    padding: 14px 16px;
+    margin: 16px 0 26px;
   }
-  .pub-tags {
+  .filter-group {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     gap: 6px;
-    margin-top: 8px;
+    margin-bottom: 10px;
+    font-size: 0.88rem;
   }
+  .filter-group strong { min-width: 148px; color: #334155; }
+  .filter-pills { display: flex; flex-wrap: wrap; gap: 6px; }
+  .pub-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+
   .filter-pill, .pub-tag-btn {
     border: 1px solid #2d6a4f;
     background: transparent;
     color: #2d6a4f;
-    padding: 3px 10px;
+    padding: 2px 9px;
     border-radius: 999px;
-    font-size: 0.82rem;
+    font-size: 0.78rem;
     cursor: pointer;
     transition: all 0.15s ease;
   }
+  /* Color coding by category */
+  .tag-method, .filter-group[data-cat="method"] .filter-pill { border-color: #1d4ed8; color: #1d4ed8; }
+  .filter-group[data-cat="year"] .filter-pill { border-color: #475569; color: #475569; }
+  .tag-other, .filter-group[data-cat="other"] .filter-pill { border-color: #b45309; color: #b45309; }
+
   .filter-pill:hover, .pub-tag-btn:hover,
   .filter-pill.active, .pub-tag-btn.active {
-    background: #2d6a4f;
-    color: #ffffff;
+    background: #2d6a4f; color: #fff;
   }
-</style>
+  .tag-method.active, .tag-method:hover,
+  .filter-group[data-cat="method"] .filter-pill.active,
+  .filter-group[data-cat="method"] .filter-pill:hover { background: #1d4ed8; color: #fff; }
 
+  .filter-group[data-cat="year"] .filter-pill.active,
+  .filter-group[data-cat="year"] .filter-pill:hover { background: #475569; color: #fff; }
+
+  .tag-other.active, .tag-other:hover,
+  .filter-group[data-cat="other"] .filter-pill.active,
+  .filter-group[data-cat="other"] .filter-pill:hover { background: #b45309; color: #fff; }
+
+  .reset-btn {
+    margin-top: 4px;
+    border: none;
+    background: #334155;
+    color: #fff;
+    padding: 4px 12px;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    cursor: pointer;
+  }
+  .reset-btn:hover { background: #0f172a; }
+</style>
+<!-- END NEW -->
+
+<!-- NEW: JavaScript for 4-category filtering and automatic 5-year intervals -->
 <script>
 document.addEventListener("DOMContentLoaded", function () {
-  const filterBar = document.getElementById("tag-filter-bar");
+  const categories = ["topic", "method", "year", "other"];
+  const active = { topic: null, method: null, year: null, other: null };
   const entries = document.querySelectorAll(".pub-entry");
-  const tagMap = new Map();
 
-  // 1. Collect all unique tags from the papers
-  document.querySelectorAll(".pub-tag-btn").forEach(btn => {
-    const key = btn.dataset.tag;
-    if (key && !tagMap.has(key)) {
-      tagMap.set(key, btn.textContent.trim());
+  // Map a 4-digit year to its 5-year interval (e.g., 2006-2010, 2011-2015, ..., 2026-2030)
+  function getYearInterval(yearStr) {
+    const y = parseInt(yearStr, 10);
+    if (isNaN(y)) return "";
+    const start = Math.floor((y - 1) / 5) * 5 + 1;
+    const end = start + 4;
+    return `${start}-${end}`;
+  }
+
+  // 1. Collect unique values per category
+  const maps = { topic: new Map(), method: new Map(), year: new Map(), other: new Map() };
+
+  entries.forEach(entry => {
+    const interval = getYearInterval(entry.dataset.year);
+    entry.dataset.yearInterval = interval;
+    if (interval) {
+      maps.year.set(interval, interval);
     }
+
+    ["topic", "method", "other"].forEach(cat => {
+      const raw = entry.dataset[cat] || "";
+      raw.split(",").map(v => v.trim()).filter(Boolean).forEach(val => {
+        if (!maps[cat].has(val)) {
+          const btn = entry.querySelector(`.pub-tag-btn[data-cat="${cat}"][data-val="${val}"]`);
+          maps[cat].set(val, btn ? btn.textContent.trim() : val);
+        }
+      });
+    });
   });
 
-  // 2. Sort tags alphabetically and add them to the top filter bar
-  Array.from(tagMap.entries())
-    .sort((a, b) => a[1].localeCompare(b[1]))
-    .forEach(([key, label]) => {
+  // 2. Populate filter rows
+  categories.forEach(cat => {
+    const group = document.querySelector(`.filter-group[data-cat="${cat}"]`);
+    const container = group.querySelector(".filter-pills");
+    const items = Array.from(maps[cat].entries());
+
+    if (items.length === 0) {
+      group.style.display = "none";
+      return;
+    }
+
+    // Sort 5-year intervals newest-first; other categories alphabetically
+    items.sort((a, b) => cat === "year" ? b[0].localeCompare(a[0]) : a[1].localeCompare(b[1]));
+
+    items.forEach(([val, label]) => {
       const btn = document.createElement("button");
       btn.type = "button";
       btn.className = "filter-pill";
-      btn.dataset.tag = key;
+      btn.dataset.cat = cat;
+      btn.dataset.val = val;
       btn.textContent = label;
-      filterBar.appendChild(btn);
+      container.appendChild(btn);
     });
+  });
 
-  // 3. Filtering function
-  function applyFilter(selectedTag) {
+  // 3. Apply combined filters (AND across categories)
+  function applyFilters() {
     entries.forEach(entry => {
       const listItem = entry.closest("li") || entry;
-      const tags = (entry.dataset.tags || "")
-        .split(",")
-        .map(t => t.trim())
-        .filter(Boolean);
-
-      if (selectedTag === "all" || tags.includes(selectedTag)) {
-        listItem.style.display = "";
-      } else {
-        listItem.style.display = "none";
-      }
+      const matches = categories.every(cat => {
+        if (!active[cat]) return true;
+        if (cat === "year") {
+          return entry.dataset.yearInterval === active.year;
+        }
+        const vals = (entry.dataset[cat] || "").split(",").map(v => v.trim());
+        return vals.includes(active[cat]);
+      });
+      listItem.style.display = matches ? "" : "none";
     });
 
-    // Update active state on all buttons
+    // Sync active highlight on both top bar and paper tags
     document.querySelectorAll(".filter-pill, .pub-tag-btn").forEach(btn => {
-      btn.classList.toggle("active", btn.dataset.tag === selectedTag);
+      const cat = btn.dataset.cat;
+      btn.classList.toggle("active", active[cat] === btn.dataset.val);
     });
   }
 
-  // 4. Listen for clicks on both the top bar and individual paper tags
+  // 4. Click handlers
   document.addEventListener("click", function (e) {
     const btn = e.target.closest(".filter-pill, .pub-tag-btn");
-    if (!btn) return;
-    const tag = btn.dataset.tag;
-    const isAlreadyActive = btn.classList.contains("active") && tag !== "all";
-    applyFilter(isAlreadyActive ? "all" : tag);
+    if (btn) {
+      const { cat, val } = btn.dataset;
+      active[cat] = active[cat] === val ? null : val;
+      applyFilters();
+    }
+  });
+
+  document.getElementById("reset-filters").addEventListener("click", function () {
+    categories.forEach(cat => active[cat] = null);
+    applyFilters();
   });
 });
 </script>
-
-
-
-
+<!-- END NEW -->
 
 <input type="text" class="pub-search" id="pubSearch" placeholder="Filter by title, author, or year...">
 
