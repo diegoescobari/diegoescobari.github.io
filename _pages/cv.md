@@ -1,10 +1,10 @@
 ---
-title: "About"
+title: "C.V."
 layout: page
-permalink: /about/
+permalink: /C.V./
 ---
 
-# About
+# C.V.
 
 <div class="section-card">
 <div class="pi-card">
