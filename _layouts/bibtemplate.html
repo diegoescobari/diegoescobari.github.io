@@ -56,6 +56,29 @@
     {% if entry.abstract %}<button class="btn-pill btn-abstract" data-toggle-target="abs-{{ entry.key }}">Abstract</button>{% endif %}
   </div>
 
+
+
+
+  
+<div class="pub-entry" data-tags="{{ entry.keywords | downcase }}">
+  <!-- Keep all of your existing bibtemplate.html code here -->
+
+  {% if entry.keywords %}
+  <div class="pub-tags">
+    {% assign tag_list = entry.keywords | split: "," %}
+    {% for tag in tag_list %}
+      {% assign clean_tag = tag | strip %}
+      <button type="button" class="pub-tag-btn" data-tag="{{ clean_tag | downcase }}">{{ clean_tag }}</button>
+    {% endfor %}
+  </div>
+  {% endif %}
+</div>
+
+
+  
+
+
+  
   <div class="pub-collapse" id="bib-{{ entry.key }}">
     <pre>{{ entry.bibtex }}</pre>
   </div>
