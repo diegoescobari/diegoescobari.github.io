@@ -18,13 +18,7 @@ permalink: /publications/
 <style>
 
 #pubList,
-.pub-entry {
-  opacity: 1 !important;
-  transform: none !important;
-  visibility: visible !important;
-  overflow: visible !important;
-  max-height: none !important;
-}
+
   
   .pub-filters {
     margin: 16px 0 24px;
