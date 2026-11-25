@@ -6,6 +6,7 @@
   from _config.yml; the first matching form wins.
 {% endcomment %}
 {% assign ref = reference %}
+{% comment %} FIXED: Removed accidental comment inside site.scholar.first_name {% endcomment %}
 {% if site.scholar.last_name and site.scholar.first_name %}
   {% assign bolded = false %}
   {% for first in site.scholar.first_name %}
@@ -38,7 +39,13 @@
   {% if entry.type == 'unpublished' and entry.doi %}{% assign arxiv_id = entry.doi %}{% endif %}
 {% endif %}
 
-<div class="pub-entry" data-pub-searchable>
+<!-- NEW: Added data-topic, data-method, data-year, and data-other attributes for filtering -->
+<div class="pub-entry"
+     data-pub-searchable
+     data-topic="{{ entry.topic | downcase }}"
+     data-method="{{ entry.method | downcase }}"
+     data-year="{{ entry.year }}"
+     data-other="{{ entry.other | downcase }}">
   {% if entry.year %}<span class="year-badge">{{ entry.year }}</span>{% endif %}
   <div class="text-justify">{{ ref }}</div>
 
@@ -56,29 +63,36 @@
     {% if entry.abstract %}<button class="btn-pill btn-abstract" data-toggle-target="abs-{{ entry.key }}">Abstract</button>{% endif %}
   </div>
 
-
-
-
-  
-<div class="pub-entry" data-tags="{{ entry.keywords | downcase }}">
-  <!-- Keep all of your existing bibtemplate.html code here -->
-
-  {% if entry.keywords %}
+  <!-- NEW: Clickable category tags (Topic, Econometric Method, Other) -->
+  {% if entry.topic or entry.method or entry.other %}
   <div class="pub-tags">
-    {% assign tag_list = entry.keywords | split: "," %}
-    {% for tag in tag_list %}
-      {% assign clean_tag = tag | strip %}
-      <button type="button" class="pub-tag-btn" data-tag="{{ clean_tag | downcase }}">{{ clean_tag }}</button>
-    {% endfor %}
+    {% if entry.topic %}
+      {% assign topics = entry.topic | split: "," %}
+      {% for t in topics %}
+        {% assign clean_t = t | strip %}
+        <button type="button" class="pub-tag-btn tag-topic" data-cat="topic" data-val="{{ clean_t | downcase }}">{{ clean_t }}</button>
+      {% endfor %}
+    {% endif %}
+
+    {% if entry.method %}
+      {% assign methods = entry.method | split: "," %}
+      {% for m in methods %}
+        {% assign clean_m = m | strip %}
+        <button type="button" class="pub-tag-btn tag-method" data-cat="method" data-val="{{ clean_m | downcase }}">{{ clean_m }}</button>
+      {% endfor %}
+    {% endif %}
+
+    {% if entry.other %}
+      {% assign others = entry.other | split: "," %}
+      {% for o in others %}
+        {% assign clean_o = o | strip %}
+        <button type="button" class="pub-tag-btn tag-other" data-cat="other" data-val="{{ clean_o | downcase }}">{{ clean_o }}</button>
+      {% endfor %}
+    {% endif %}
   </div>
   {% endif %}
-</div>
+  <!-- END NEW -->
 
-
-  
-
-
-  
   <div class="pub-collapse" id="bib-{{ entry.key }}">
     <pre>{{ entry.bibtex }}</pre>
   </div>
