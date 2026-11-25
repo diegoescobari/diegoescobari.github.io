@@ -17,15 +17,61 @@ permalink: /publications/
 
 <style>
 
-  .btn-wp {
-    background: #0f766e;
-    color: #ffffff !important;
-    border-color: #0f766e;
+/* Light solid neutral button palette */
+  .pub-actions .btn-pill {
+    border-width: 1px !important;
+    border-style: solid !important;
+    font-weight: 500;
   }
-  .btn-wp:hover {
-    background: #115e59;
-    border-color: #115e59;
+
+  /* 1. DOI — Cool Slate */
+  .pub-actions .btn-doi {
+    background-color: #e2e8f0 !important;
+    border-color: #cbd5e1 !important;
+    color: #334155 !important;
   }
+  .pub-actions .btn-doi:hover { background-color: #cbd5e1 !important; }
+
+  /* 2. BIB — Warm Stone */
+  .pub-actions .btn-bib {
+    background-color: #ebe7e0 !important;
+    border-color: #d6d0c4 !important;
+    color: #44403c !important;
+  }
+  .pub-actions .btn-bib:hover { background-color: #ddd6ca !important; }
+
+  /* 3. ABSTRACT — Soft Sand */
+  .pub-actions .btn-abstract {
+    background-color: #f3ece1 !important;
+    border-color: #e0d3be !important;
+    color: #574b3a !important;
+  }
+  .pub-actions .btn-abstract:hover { background-color: #e6dac7 !important; }
+
+  /* 4. WORKING PAPER — Pale Sage */
+  .pub-actions .btn-wp {
+    background-color: #dfece8 !important;
+    border-color: #bdd8d0 !important;
+    color: #1f4e45 !important;
+  }
+  .pub-actions .btn-wp:hover { background-color: #cbe0da !important; }
+
+  /* 5. SLIDES — Mist Blue */
+  .pub-actions .btn-slides {
+    background-color: #e3ebf2 !important;
+    border-color: #c5d6e6 !important;
+    color: #2c4a66 !important;
+  }
+  .pub-actions .btn-slides:hover { background-color: #d0dfec !important; }
+
+  /* 6. DATA — Soft Taupe / Clay */
+  .pub-actions .btn-data {
+    background-color: #ede4e7 !important;
+    border-color: #d9c8ce !important;
+    color: #543c45 !important;
+  }
+  .pub-actions .btn-data:hover { background-color: #dfd0d5 !important; }
+  
   
 .fade-in-section,
 #pubList,
