@@ -5,7 +5,7 @@ sitemap: false
 permalink: /cv/
 ---
 
-# cv
+# C.V.
 
 <div class="section-card">
 <div class="pi-card">
