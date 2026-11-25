@@ -17,6 +17,16 @@ permalink: /publications/
 
 <style>
 
+  .btn-wp {
+    background: #0f766e;
+    color: #ffffff !important;
+    border-color: #0f766e;
+  }
+  .btn-wp:hover {
+    background: #115e59;
+    border-color: #115e59;
+  }
+  
 .fade-in-section,
 #pubList,
 #pubList .pub-section,
