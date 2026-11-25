@@ -18,7 +18,7 @@ permalink: /publications/
 <style>
 
 #pubList,
-#pubList .pub-entry {
+.pub-entry {
   opacity: 1 !important;
   transform: none !important;
   visibility: visible !important;
