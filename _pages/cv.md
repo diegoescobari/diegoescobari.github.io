@@ -1,10 +1,10 @@
 ---
-title: "C.V."
+title: "cv"
 layout: page
-permalink: /C.V./
+permalink: /cv/
 ---
 
-# C.V.
+# cv
 
 <div class="section-card">
 <div class="pi-card">
