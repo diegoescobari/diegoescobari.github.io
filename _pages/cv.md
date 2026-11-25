@@ -1,7 +1,7 @@
 ---
 title: "C.V."
 layout: page
-permalink: /about/
+permalink: /C.V./
 ---
 
 # About
