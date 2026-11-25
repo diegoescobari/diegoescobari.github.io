@@ -7,7 +7,7 @@ permalink: /publications/
 # Publications
 
 {::nomarkdown}
-<div id="pub-filters" class="pub-filters">
+<div id="pub-filters" class="section-card pub-filters">
   <div class="filter-group" data-cat="topic"><strong>Topic:</strong> <span class="filter-pills"></span></div>
   <div class="filter-group" data-cat="method"><strong>Econometric Method:</strong> <span class="filter-pills"></span></div>
   <div class="filter-group" data-cat="year"><strong>Year:</strong> <span class="filter-pills"></span></div>
@@ -17,11 +17,7 @@ permalink: /publications/
 
 <style>
   .pub-filters {
-    background: #f8fafc;
-    border: 1px solid #e2e8f0;
-    border-radius: 10px;
-    padding: 14px 16px;
-    margin: 16px 0 26px;
+    margin: 16px 0 24px;
   }
   .filter-group {
     display: flex;
