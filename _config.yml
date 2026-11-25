@@ -48,6 +48,7 @@ analytics:
 # navbar text without changing the URL.
 nav_pages:
   - name: cv
+    title: C.V.
   - name: publications
   - name: talks
   - name: research
