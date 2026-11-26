@@ -13,8 +13,8 @@ permalink: /presentations/
 # Presentations
 
 
-{% assign invited = site.data.talks | where: "type", "invited" %}
-{% assign contributed = site.data.talks | where_exp: "t", "t.type != 'invited'" %}
+{% assign invited = site.data.presentations | where: "type", "invited" %}
+{% assign contributed = site.data.presentations | where_exp: "t", "t.type != 'invited'" %}
 
 
 
@@ -22,9 +22,9 @@ permalink: /presentations/
 
 <div class="section-card" markdown="0">
 
-<h2>Invited Talks</h2>
+<h2>Invited Presentations</h2>
 
-{% for talk in invited %}{% include talk.html talk=talk %}{% endfor %}
+{% for talk in invited %}{% include presentations.html presentations=presentations %}{% endfor %}
 
 </div>
 
@@ -36,9 +36,9 @@ permalink: /presentations/
 
 <div class="section-card" markdown="0">
 
-<h2>Contributed Talks</h2>
+<h2>Contributed Presentations</h2>
 
-{% for talk in contributed %}{% include talk.html talk=talk %}{% endfor %}
+{% for talk in contributed %}{% include presentations.html presentations=presentations %}{% endfor %}
 
 </div>
 
@@ -48,6 +48,6 @@ permalink: /presentations/
 
 {% unless site.data.talks.size > 0 %}
 
-<p class="text-muted">No talks listed yet. Add entries to <code>_data/talks.yml</code>.</p>
+<p class="text-muted">No talks listed yet. Add entries to <code>_data/presentations.yml</code>.</p>
 
 {% endunless %}
