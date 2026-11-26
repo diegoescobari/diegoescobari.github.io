@@ -17,14 +17,6 @@ permalink: /template/
 </div>
 
 <div class="research-card">
-<img src="{{ '/images/research/slide_forecast.jpg' | relative_url }}" class="research-thumb" width="1003" height="526" alt="Business and Econ Forecasting">
-<div class="research-body">
-<h2 class="research-title">Business and Econ Forecasting</h2>
-<p class="research-desc">Empirical application of econometric techniques to forecasting in business and economics. Starting from regression, model specification, and hypothesis testing, the course examines modern forecasting methods. Students learn to analyze time series data and build models incorporating trend, seasonal, and cyclical components.</p>
-</div>
-</div>
-
-<div class="research-card">
 <img src="{{ '/images/research/slide_ecmt1.jpg' | relative_url }}" class="research-thumb" width="600" height="300" alt="Econometrics I">
 <div class="research-body">
 <h2 class="research-title">Econometrics I (PhD)</h2>
@@ -41,6 +33,14 @@ permalink: /template/
 </div>
 
 <div class="research-card">
+<img src="{{ '/images/research/slide_money.jpg' | relative_url }}" class="research-thumb" width="832" height="448" alt="Money and Banking">
+<div class="research-body">
+<h2 class="research-title">Money and Banking</h2>
+<p class="research-desc">Examines the origins, nature, and economic role of money, banking, and financial markets across national and international economies. The course explores financial institutions that facilitate exchange and covers core concepts including interest rates, central banking, stocks, bonds, and foreign exchange.</p>
+</div>
+</div>
+
+<div class="research-card">
 <img src="{{ '/images/research/slides_ols.jpg' | relative_url }}" class="research-thumb" width="1164" height="708" alt="Undergraduate Econometrics">
 <div class="research-body">
 <h2 class="research-title">Undergraduate Econometrics</h2>
@@ -49,10 +49,10 @@ permalink: /template/
 </div>
 
 <div class="research-card">
-<img src="{{ '/images/research/slide_money.jpg' | relative_url }}" class="research-thumb" width="832" height="448" alt="Money and Banking">
+<img src="{{ '/images/research/slide_forecast.jpg' | relative_url }}" class="research-thumb" width="1003" height="526" alt="Business and Econ Forecasting">
 <div class="research-body">
-<h2 class="research-title">Money and Banking</h2>
-<p class="research-desc">Examines the origins, nature, and economic role of money, banking, and financial markets across national and international economies. The course explores financial institutions that facilitate exchange and covers core concepts including interest rates, central banking, stocks, bonds, and foreign exchange.</p>
+<h2 class="research-title">Business and Econ Forecasting</h2>
+<p class="research-desc">Empirical application of econometric techniques to forecasting in business and economics. Starting from regression, model specification, and hypothesis testing, the course examines modern forecasting methods. Students learn to analyze time series data and build models incorporating trend, seasonal, and cyclical components.</p>
 </div>
 </div>
 
