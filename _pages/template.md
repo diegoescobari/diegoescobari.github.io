@@ -17,7 +17,7 @@ permalink: /template/
 </div>
 
 <div class="research-card">
-<img src="{{ '/images/research/slide_ecmt1.jpg' | relative_url }}" class="research-thumb" width="400" height="200" alt="Superfluid helium">
+<img src="{{ '/images/research/slide_ecmt1.jpg' | relative_url }}" class="research-thumb" width="600" height="300" alt="Superfluid helium">
 <div class="research-body">
 <h2 class="research-title">Superfluidity</h2>
 <p class="research-desc">Quantum mechanical explanation of the behavior of liquid helium near absolute zero. Using path integral methods, we developed a microscopic theory of the lambda transition and explained the energy spectrum of excitations in superfluid helium, including the roton minimum.</p>
