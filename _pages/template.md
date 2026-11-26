@@ -58,3 +58,18 @@ permalink: /template/
 </div>
 
 </div>
+
+<div class="section-card" markdown="0">
+  <h2>Anonymous Class Feedback</h2>
+  <p>Please use this form to submit your comments/feedback about the class. I use this information to help improve the class. Please note that your comments are anonymous, so I will not be able to reply. If you need an immediate response, please send me an email instead.</p>
+  <iframe
+    src="https://docs.google.com/forms/d/e/1FAIpQLSdMwkfZOhRpcxZOPz4zCRbBhSbWtT_MyL_OZB4y4OERy2x1mw/viewform?embedded=true"
+    width="100%"
+    height="750"
+    frameborder="0"
+    marginheight="0"
+    marginwidth="0"
+    style="border: 0; border-radius: 6px; background: #ffffff;">
+    Loading…
+  </iframe>
+</div>
