@@ -9,7 +9,7 @@ permalink: /template/
 <div class="research-grid">
 
 <div class="research-card">
-<img src="{{ '/images/research/slide_class.jpg' | relative_url }}" class="research-thumb" width="400" height="200" alt="Feynman diagram">
+<img src="{{ '/images/research/slide_class.jpg' | relative_url }}" class="research-thumb" width="600" height="300" alt="Feynman diagram">
 <div class="research-body">
 <h2 class="research-title">Quantum Electrodynamics</h2>
 <p class="research-desc">Development of the path integral formulation of quantum mechanics and its application to quantum electrodynamics (QED). This work introduced Feynman diagrams as a powerful tool for calculating particle interactions, providing an intuitive visual representation of complex quantum processes.</p>
@@ -25,7 +25,7 @@ permalink: /template/
 </div>
 
 <div class="research-card">
-<img src="{{ '/images/research/slide_ecmt2.jpg' | relative_url }}" class="research-thumb" width="400" height="200" alt="Parton model">
+<img src="{{ '/images/research/slide_ecmt2.jpg' | relative_url }}" class="research-thumb" width="600" height="300" alt="Parton model">
 <div class="research-body">
 <h2 class="research-title">Parton Model</h2>
 <p class="research-desc">A model describing the internal structure of hadrons in terms of point-like constituents called partons. This framework proved essential for interpreting deep inelastic scattering experiments at SLAC and laid the groundwork for quantum chromodynamics (QCD).</p>
@@ -33,7 +33,7 @@ permalink: /template/
 </div>
 
 <div class="research-card">
-<img src="{{ '/images/research/slide_me.jpg' | relative_url }}" class="research-thumb" width="400" height="200" alt="Quantum circuit">
+<img src="{{ '/images/research/slide_me.jpg' | relative_url }}" class="research-thumb" width="600" height="300" alt="Quantum circuit">
 <div class="research-body">
 <h2 class="research-title">Quantum Computing</h2>
 <p class="research-desc">Pioneering proposals for using quantum mechanical systems to perform computation. We demonstrated that classical computers cannot efficiently simulate quantum physics, motivating the development of quantum computers that exploit superposition and entanglement.</p>
@@ -41,7 +41,7 @@ permalink: /template/
 </div>
 
 <div class="research-card">
-<img src="{{ '/images/research/nanotechnology.svg' | relative_url }}" class="research-thumb" width="400" height="200" alt="Atomic manipulation">
+<img src="{{ '/images/research/slides_ols.jpg' | relative_url }}" class="research-thumb" width="1164" height="708" alt="Atomic manipulation">
 <div class="research-body">
 <h2 class="research-title">Nanotechnology</h2>
 <p class="research-desc">Exploration of the physical possibilities of manipulating matter at the atomic scale. The talk "There's Plenty of Room at the Bottom" envisioned machines that could arrange atoms one by one, anticipating modern nanotechnology and molecular manufacturing.</p>
@@ -49,7 +49,7 @@ permalink: /template/
 </div>
 
 <div class="research-card">
-<img src="{{ '/images/research/weak-interactions.svg' | relative_url }}" class="research-thumb" width="400" height="200" alt="Weak interaction diagram">
+<img src="{{ '/images/research/slide_money.jpg' | relative_url }}" class="research-thumb" width="832" height="448" alt="Weak interaction diagram">
 <div class="research-body">
 <h2 class="research-title">Weak Interactions</h2>
 <p class="research-desc">Development of the V-A theory of the weak interaction with Murray Gell-Mann. This theory correctly predicted the structure of weak decays and was later incorporated into the electroweak unification by Weinberg, Salam, and Glashow.</p>
