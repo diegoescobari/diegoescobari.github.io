@@ -35,14 +35,7 @@ Please use this website to find the links to my research papers and learn about 
 </div>
 {% endif %}
 
-<div class="chip-container" markdown="0">
-<a href="{{ '/research' | relative_url }}" class="chip">Quantum Electrodynamics</a>
-<a href="{{ '/research' | relative_url }}" class="chip">Path Integrals</a>
-<a href="{{ '/research' | relative_url }}" class="chip">Superfluidity</a>
-<a href="{{ '/research' | relative_url }}" class="chip">Parton Model</a>
-<a href="{{ '/research' | relative_url }}" class="chip">Quantum Computing</a>
-<a href="{{ '/research' | relative_url }}" class="chip">Nanotechnology</a>
-</div>
+
 
 <div class="research-grid">
 
@@ -71,4 +64,13 @@ Please use this website to find the links to my research papers and learn about 
 </div>
 </div>
 
+</div>
+
+
+<div class="chip-container" markdown="0">
+<a href="{{ '/cv'            | relative_url }}" class="chip">C.V.</a>
+<a href="{{ '/research'      | relative_url }}" class="chip">Research</a>
+<a href="{{ '/presentations' | relative_url }}" class="chip">Presentations</a>
+<a href="{{ '/teaching'      | relative_url }}" class="chip">Teaching</a>
+<a href="{{ '/contact'       | relative_url }}" class="chip">Contact</a>
 </div>
