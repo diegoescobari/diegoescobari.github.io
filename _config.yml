@@ -12,12 +12,12 @@ photo: headshot.jpg  # place your photo in images/
 # ============================================================
 links:
   google_scholar: "https://scholar.google.com/citations?user=WOnd1RwAAAAJ&hl=en&oi=ao"
-  github: "https://github.com/"
+  github: ""
   researchgate: "https://www.researchgate.net/profile/Diego-Escobari"
   orcid: "https://orcid.org/0000-0003-4532-8563"
   twitter: "https://x.com/DiegoEscobari"
   linkedin: "https://www.linkedin.com/in/escobari/"
-  cv: ""  # e.g., "papers/cv.pdf"
+  cv: "https://diegoescobari.github.io/cv/"  # e.g., "papers/cv.pdf"
 
 # ============================================================
 # STEP 3: Site Settings
