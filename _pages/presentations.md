@@ -6,23 +6,19 @@ permalink: /presentations/
 
 # Presentations
 
-{% assign invited = site.data.presentations | where: "type", "invited" %}
-{% assign contributed = site.data.presentations | where_exp: "t", "t.type != 'invited'" %}
-
-{% if invited.size > 0 %}
+{% if site.data.presentations.size > 0 %}
+{% assign current_year = "" %}
+{% for talk in site.data.presentations %}
+{% capture talk_year %}{{ talk.year }}{% endcapture %}
+{% if talk_year != current_year %}
+{% unless forloop.first %}</div>{% endunless %}
+{% assign current_year = talk_year %}
 <div class="section-card" markdown="0">
-<h2>Invited Presentations</h2>
-{% for talk in invited %}{% include talk.html talk=talk %}{% endfor %}
-</div>
+<h2>{{ current_year }}</h2>
 {% endif %}
-
-{% if contributed.size > 0 %}
-<div class="section-card" markdown="0">
-<h2>Contributed Presentations</h2>
-{% for talk in contributed %}{% include talk.html talk=talk %}{% endfor %}
-</div>
-{% endif %}
-
-{% unless site.data.presentations.size > 0 %}
+{% include presentations.html talk=talk %}
+{% if forloop.last %}</div>{% endif %}
+{% endfor %}
+{% else %}
 <p class="text-muted">No presentations listed yet. Add entries to <code>_data/presentations.yml</code>.</p>
-{% endunless %}
+{% endif %}
