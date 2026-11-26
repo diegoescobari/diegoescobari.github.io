@@ -51,7 +51,7 @@ nav_pages:
     label: C.V.
   - name: research
   - name: presentations
-#  - name: template
+  - name: template
 #  - name: software
 #  - name: team
   - name: teaching
