@@ -5,7 +5,7 @@
 # EXAMPLE -- replace or delete
 - education:
     - "Ph.D. Economics, Texas A&M University"
-    - "B.S. Economics, Texas A&M University"
+    - "M.S. Economics, Texas A&M University"
   educationshort:
     - "Ph.D. Economics, TAMU"
-    - "B.S. Economics, TAMU"
+    - "M.S. Economics, TAMU"
