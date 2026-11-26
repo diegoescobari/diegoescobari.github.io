@@ -1,6 +1,6 @@
 <div class="profile-card">
 <a href="{{ '/cv/' | relative_url }}">
-<img src="{{ site.photo | prepend: '/images/' | relative_url }}" class="profile-photo" style="border-radius: 0;" alt="{{ site.name }}" width="140" height="140" fetchpriority="high">
+<img src="{{ site.photo | prepend: '/images/' | relative_url }}" class="profile-photo" style="border-radius: 0;" alt="{{ site.name }}" width="200" height="200" fetchpriority="high">
 </a>
 <p class="profile-name">{{ site.name }}</p>
 <p class="profile-title">{{ site.title }}</p>
@@ -27,7 +27,7 @@
 <div class="section-card" style="margin-top: var(--space-6);">
 <h2 style="margin-top: 0; font-size: 1.125rem;">Recent presentations</h2>
 <div class="news-timeline">
-{% for item in site.data.presentations limit:3 %}
+{% for item in site.data.presentations limit:6 %}
 <div class="news-item">
 <div class="news-date">{% if item.date %}{{ item.date }} {% endif %}{{ item.year }}</div>
 <div class="news-headline"><strong>{{ item.title }}</strong>{% if item.event %}, {{ item.event }}{% endif %}{% if item.location %} ({{ item.location }}){% endif %}</div>
