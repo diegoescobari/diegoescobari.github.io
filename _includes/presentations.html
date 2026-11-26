@@ -1,13 +1,21 @@
 {% assign item = include.item %}
-<div class="pub-entry">
-  {% capture line %}<strong>{{ item.title }}</strong>{% if item.event %}. {{ item.event }}{% endif %}{% if item.location %}, {{ item.location }}{% endif %}{% if item.date %}, {{ item.date }}{% if item.year %} {{ item.year }}{% endif %}{% elsif item.year %}, {{ item.year }}{% endif %}{% endcapture %}
-  {% assign last_char = line | slice: -1 %}
-  <div class="text-justify">{{ line }}{% unless last_char == "." %}.{% endunless %}</div>
-  {% if item.url or item.slides or item.video %}
-  <div class="pub-actions">
-    {% if item.url %}<a href="{{ item.url }}" target="_blank" class="btn-pill btn-link">Link</a>{% endif %}
-    {% if item.slides %}<a href="{{ item.slides }}" target="_blank" class="btn-pill btn-slides">Slides</a>{% endif %}
-    {% if item.video %}<a href="{{ item.video }}" target="_blank" class="btn-pill btn-video">Video</a>{% endif %}
+<div class="pub-entry" style="display: flex; justify-content: space-between; align-items: flex-start; gap: 1rem;">
+  <div style="flex: 1;">
+    <div style="margin-bottom: 0.2rem;">
+      <strong>{{ item.title }}</strong>
+      {% if item.type == "invited" %}
+        <span style="display: inline-block; font-size: 0.72rem; font-weight: 500; padding: 0.1rem 0.45rem; margin-left: 0.35rem; border-radius: 999px; background-color: rgba(26, 122, 109, 0.12); color: #1a7a6d; vertical-align: middle;">Invited</span>
+      {% endif %}
+    </div>
+    <div style="font-size: 0.92rem; line-height: 1.45;">
+      <span>{{ item.event }}</span>{% if item.location %} <span style="color: #6c7a89; font-weight: 500;">&middot; {{ item.location }}</span>{% endif %}
+    </div>
+  </div>
+  {% if item.date or item.year %}
+  <div style="flex-shrink: 0;">
+    <span style="display: inline-block; font-size: 0.78rem; font-weight: 600; padding: 0.2rem 0.6rem; border-radius: 6px; background-color: #eef5f4; color: #1a7a6d; white-space: nowrap;">
+      {% if item.date %}{{ item.date | slice: 0, 3 }} {% endif %}{{ item.year }}
+    </span>
   </div>
   {% endif %}
 </div>
