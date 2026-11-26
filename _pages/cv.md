@@ -5,9 +5,7 @@ sitemap: false
 permalink: /cv/
 ---
 
-# C.V.
-
-# <h3>Curriculum Vitae</h3>
+# Curriculum Vitae
 <p>
   <a href="{{ '/DiegoCV.pdf' | relative_url }}" target="_blank" rel="noopener">
     Click here to download the PDF file.
