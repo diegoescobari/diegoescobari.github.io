@@ -1,6 +1,6 @@
 {% assign item = include.item %}
 <div class="pub-entry">
-  {% capture line %}<strong>{{ item.event }}</strong>{% if item.location %}, {{ item.location }}{% endif %}. <em>{{ item.title }}</em>{% if item.date %}, {{ item.date }}{% endif %}{% if item.year %} {{ item.year }}{% endif %}{% endcapture %}
+  {% capture line %}<strong>{{ item.title }}</strong>{% if item.event %}. {{ item.event }}{% endif %}{% if item.location %}, {{ item.location }}{% endif %}{% if item.date %}, {{ item.date }}{% if item.year %} {{ item.year }}{% endif %}{% elsif item.year %}, {{ item.year }}{% endif %}{% endcapture %}
   {% assign last_char = line | slice: -1 %}
   <div class="text-justify">{{ line }}{% unless last_char == "." %}.{% endunless %}</div>
   {% if item.url or item.slides or item.video %}
