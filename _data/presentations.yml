@@ -9,6 +9,7 @@
   location: Lima, Peru (Short Video)
   year: 2026
   date: November
+  hide_sidebar: true
 - title: A Time-Series Test for Election Fraud
   event: Universidad Iberoamericana
   location: Mexico City, Mexico
