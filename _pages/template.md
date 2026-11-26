@@ -12,7 +12,8 @@ permalink: /template/
 <img src="{{ '/images/research/slide_me.jpg' | relative_url }}" class="research-thumb" width="600" height="300" alt="Fall 2026 Office Hours">
 <div class="research-body">
 <h2 class="research-title">Fall 2026 Office Hours</h2>
-<p class="research-desc">TR 10:00 a.m. – 12:00 p.m. and by appointment</p>
+<p class="research-desc">TR 10:00 a.m. – 12:00 p.m. and by appointment.</p>
+<p class="research-desc">Class material is posted on Brightspace.</p>
 </div>
 </div>
 
