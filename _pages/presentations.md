@@ -6,22 +6,14 @@ permalink: /presentations/
 
 # Presentations
 
-{% assign invited = site.data.talks | where: "type", "invited" %}
-{% assign contributed = site.data.talks | where_exp: "t", "t.type != 'invited'" %}
+{% assign talks_by_year = site.data.talks | group_by: "year" | sort: "name" | reverse %}
 
-{% if invited.size > 0 %}
+{% for year_group in talks_by_year %}
 <div class="section-card" markdown="0">
-<h2>Invited Talks</h2>
-{% for talk in invited %}{% include talk.html talk=talk %}{% endfor %}
+<h2>{{ year_group.name }}</h2>
+{% for talk in year_group.items %}{% include talk.html talk=talk %}{% endfor %}
 </div>
-{% endif %}
-
-{% if contributed.size > 0 %}
-<div class="section-card" markdown="0">
-<h2>Contributed Talks</h2>
-{% for talk in contributed %}{% include talk.html talk=talk %}{% endfor %}
-</div>
-{% endif %}
+{% endfor %}
 
 {% unless site.data.talks.size > 0 %}
 <p class="text-muted">No talks listed yet. Add entries to <code>_data/talks.yml</code>.</p>
