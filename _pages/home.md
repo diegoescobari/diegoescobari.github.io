@@ -44,4 +44,31 @@ Please use this website to find the links to my research papers and learn about 
 <a href="{{ '/research' | relative_url }}" class="chip">Nanotechnology</a>
 </div>
 
+<div class="research-grid">
 
+<div class="research-card">
+<img src="{{ '/images/research/slide_me.jpg' | relative_url }}" class="research-thumb" width="600" height="300" alt="Fall 2026 Office Hours">
+<div class="research-body">
+<h2 class="research-title">Fall 2026 Office Hours</h2>
+<p class="research-desc">TR 10:00 a.m. – 12:00 p.m. and by appointment.</p>
+<p class="research-desc">Class material is posted on Brightspace.</p>
+</div>
+</div>
+
+<div class="research-card">
+<img src="{{ '/images/research/slide_ecmt1.jpg' | relative_url }}" class="research-thumb" width="600" height="300" alt="Econometrics I">
+<div class="research-body">
+<h2 class="research-title">Econometrics I (PhD)</h2>
+<p class="research-desc">This course introduces core econometric tools and their implementation in empirical research and practical applications. Emphasizing methodological foundations and real-world relevance, students learn to analyze data using statistical software, interpret empirical output, and confidently conduct independent quantitative analysis.</p>
+</div>
+</div>
+
+<div class="research-card">
+<img src="{{ '/images/research/slide_ecmt2.jpg' | relative_url }}" class="research-thumb" width="600" height="300" alt="Econometrics II">
+<div class="research-body">
+<h2 class="research-title">Econometrics II (PhD)</h2>
+<p class="research-desc">This course covers the core methods of modern time series analysis, emphasizing their underlying foundations and real-world applications. Through lectures, readings, and hands-on statistical software exercises, students learn to evaluate applied research, interpret econometric output, and conduct independent empirical analysis.</p>
+</div>
+</div>
+
+</div>
