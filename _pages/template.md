@@ -12,7 +12,7 @@ permalink: /template/
 <img src="{{ '/images/research/slide_me.jpg' | relative_url }}" class="research-thumb" width="600" height="300" alt="The Instructor">
 <div class="research-body">
 <h2 class="research-title">The Instructor</h2>
-<p class="research-desc">Pioneering proposals for using quantum mechanical systems to perform computation. We demonstrated that classical computers cannot efficiently simulate quantum physics, motivating the development of quantum computers that exploit superposition and entanglement.</p>
+<p class="research-desc">Teaching undergraduate and graduate economics is one of the most rewarding parts of my career. I genuinely enjoy working closely with students, making econometrics and applied economics clear and practical, while supporting and mentoring them so they can succeed.</p>
 </div>
 </div>
 
