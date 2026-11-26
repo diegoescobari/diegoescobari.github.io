@@ -9,7 +9,7 @@ permalink: /publications/
 {::nomarkdown}
 <div id="pub-filters" class="section-card pub-filters">
   <div class="filter-group" data-cat="topic"><strong>Topic:</strong> <span class="filter-pills"></span></div>
-  <div class="filter-group" data-cat="method"><strong>Econometric Method:</strong> <span class="filter-pills"></span></div>
+  <div class="filter-group" data-cat="method"><strong>Econometrics:</strong> <span class="filter-pills"></span></div>
   <div class="filter-group" data-cat="year"><strong>Year:</strong> <span class="filter-pills"></span></div>
   <div class="filter-group" data-cat="other"><strong>Other:</strong> <span class="filter-pills"></span></div>
   <button type="button" id="reset-filters" class="reset-btn">Reset All Filters</button>
