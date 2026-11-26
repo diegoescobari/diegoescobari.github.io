@@ -46,7 +46,7 @@ Please use this website to find the links to my research papers and learn about 
 <div class="research-card">
 <img src="{{ '/images/research/viral.jpg' | relative_url }}" class="research-thumb" width="1041" height="568" alt="Viral Media Content">
 <div class="research-body">
-<h2 class="research-title">Econometrics II (PhD)</h2>
+<h2 class="research-title">Viral Media Content</h2>
 <p class="research-desc">Introduces a statistical procedure within a utility-based Hawkes framework to detect and date-stamp explosion and collapse phases in viral media content, revealing how emotions and user characteristics asymmetrically drive engagement dynamics.</p>
 </div>
 </div>
