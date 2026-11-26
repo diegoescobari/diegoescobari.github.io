@@ -42,6 +42,7 @@
   year: 2026
   date: June
   type: invited
+  hide_sidebar: true
 - title: "Bridging Prediction Markets and Asset Pricing: Information Parity and
     the Favorite-Longshot Bias"
   event: University of Reading
