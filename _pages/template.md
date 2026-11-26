@@ -17,7 +17,7 @@ permalink: /template/
 </div>
 
 <div class="research-card">
-<img src="{{ '/images/research/superfluidity.svg' | relative_url }}" class="research-thumb" width="400" height="200" alt="Superfluid helium">
+<img src="{{ '/images/research/slide_ecmt1.jpg' | relative_url }}" class="research-thumb" width="400" height="200" alt="Superfluid helium">
 <div class="research-body">
 <h2 class="research-title">Superfluidity</h2>
 <p class="research-desc">Quantum mechanical explanation of the behavior of liquid helium near absolute zero. Using path integral methods, we developed a microscopic theory of the lambda transition and explained the energy spectrum of excitations in superfluid helium, including the roton minimum.</p>
@@ -25,7 +25,7 @@ permalink: /template/
 </div>
 
 <div class="research-card">
-<img src="{{ '/images/research/partons.svg' | relative_url }}" class="research-thumb" width="400" height="200" alt="Parton model">
+<img src="{{ '/images/research/slide_ecmt2.jpg' | relative_url }}" class="research-thumb" width="400" height="200" alt="Parton model">
 <div class="research-body">
 <h2 class="research-title">Parton Model</h2>
 <p class="research-desc">A model describing the internal structure of hadrons in terms of point-like constituents called partons. This framework proved essential for interpreting deep inelastic scattering experiments at SLAC and laid the groundwork for quantum chromodynamics (QCD).</p>
@@ -33,7 +33,7 @@ permalink: /template/
 </div>
 
 <div class="research-card">
-<img src="{{ '/images/research/quantum-computing.svg' | relative_url }}" class="research-thumb" width="400" height="200" alt="Quantum circuit">
+<img src="{{ '/images/research/slide_me.jpg' | relative_url }}" class="research-thumb" width="400" height="200" alt="Quantum circuit">
 <div class="research-body">
 <h2 class="research-title">Quantum Computing</h2>
 <p class="research-desc">Pioneering proposals for using quantum mechanical systems to perform computation. We demonstrated that classical computers cannot efficiently simulate quantum physics, motivating the development of quantum computers that exploit superposition and entanglement.</p>
