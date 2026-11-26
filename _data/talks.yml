@@ -1,799 +1,715 @@
-# Talks, shown on the Talks page in the order listed (newest first is conventional).
-# Each entry needs: title, event, year
-# Optional: location, date (free text, e.g. "11 December"), type (invited or contributed;
-#           anything other than invited is listed as contributed), url, slides, video
-
-# --- 2026 ---
-- title: "A Time-Series Test for Election Fraud"
-  event: "Bolivian Conference in Development Economics"
-  location: "La Paz, Bolivia"
+---
+- title: A Time-Series Test for Election Fraud
+  event: Bolivian Conference in Development Economics
+  location: La Paz, Bolivia
   year: 2026
-  date: "November"
-
-- title: "A Time-Series Test for Election Fraud"
-  event: "Latin American and Caribbean Economic Association (LACEA), Pontificia Universidad Católica del Perú"
-  location: "Lima, Peru"
+  date: November
+- title: A Time-Series Test for Election Fraud
+  event: Latin American and Caribbean Economic Association (LACEA), Pontificia
+    Universidad Católica del Perú
+  location: Lima, Peru
   year: 2026
-  date: "November"
-
-- title: "A Time-Series Test for Election Fraud"
-  event: "Universidad Iberoamericana"
-  location: "Mexico City, Mexico"
+  date: November
+- title: A Time-Series Test for Election Fraud
+  event: Universidad Iberoamericana
+  location: Mexico City, Mexico
   year: 2026
-  date: "November"
+  date: November
   type: invited
-
-- title: "Bridging Prediction Markets and Asset Pricing: Information Parity and the Favorite-Longshot Bias"
-  event: "Texas Economics Consortium Conference, Federal Reserve Bank of Dallas & University of St. Thomas"
-  location: "Houston, TX"
+- title: "Bridging Prediction Markets and Asset Pricing: Information Parity and
+    the Favorite-Longshot Bias"
+  event: Texas Economics Consortium Conference, Federal Reserve Bank of Dallas &
+    University of St. Thomas
+  location: Houston, TX
   year: 2026
-  date: "October"
-
-- title: "Bridging Prediction Markets and Asset Pricing: Information Parity and the Favorite-Longshot Bias"
-  event: "Durham University, Department of Finance"
-  location: "Durham, United Kingdom"
+  date: October
+- title: "Bridging Prediction Markets and Asset Pricing: Information Parity and
+    the Favorite-Longshot Bias"
+  event: Durham University, Department of Finance
+  location: Durham, United Kingdom
   year: 2026
-  date: "June"
+  date: June
   type: invited
-
-- title: "A Time-Series Test for Election Fraud"
-  event: "International Economic Association World Congress"
-  location: "Belgrade, Serbia"
+- title: A Time-Series Test for Election Fraud
+  event: International Economic Association World Congress
+  location: Belgrade, Serbia
   year: 2026
-  date: "June"
-
-- title: "Bridging Prediction Markets and Asset Pricing: Information Parity and the Favorite-Longshot Bias"
-  event: "Reading Online Sports Economics Seminar"
-  location: "Reading, United Kingdom (Virtual)"
+  date: June
+- title: "Bridging Prediction Markets and Asset Pricing: Information Parity and
+    the Favorite-Longshot Bias"
+  event: Reading Online Sports Economics Seminar
+  location: Reading, United Kingdom (Virtual)
   year: 2026
-  date: "June"
+  date: June
   type: invited
-
-- title: "Bridging Prediction Markets and Asset Pricing: Information Parity and the Favorite-Longshot Bias"
-  event: "University of Reading"
-  location: "Reading, United Kingdom"
+- title: "Bridging Prediction Markets and Asset Pricing: Information Parity and
+    the Favorite-Longshot Bias"
+  event: University of Reading
+  location: Reading, United Kingdom
   year: 2026
-  date: "June"
+  date: June
   type: invited
-
-- title: "Panel on Academic Careers"
-  event: "Texas A&M University, Alumni Conference"
-  location: "College Station, TX"
+- title: Panel on Academic Careers
+  event: Texas A&M University, Alumni Conference
+  location: College Station, TX
   year: 2026
-  date: "April"
+  date: April
   type: invited
-
-# --- 2025 ---
-- title: "The Effect of Air Quality on Real Estate Prices: Climate Change Deniers vs. Believers"
-  event: "Tecnológico de Monterrey, EGADE Business School"
-  location: "Monterrey, Mexico"
+- title: "The Effect of Air Quality on Real Estate Prices: Climate Change Deniers
+    vs. Believers"
+  event: Tecnológico de Monterrey, EGADE Business School
+  location: Monterrey, Mexico
   year: 2025
-  date: "October"
+  date: October
   type: invited
-
-- title: "The Effect of Air Quality on Real Estate Prices: Climate Change Deniers vs. Believers"
-  event: "Texas Economic Theory Camp, Southern Methodist University"
-  location: "Dallas, TX"
+- title: "The Effect of Air Quality on Real Estate Prices: Climate Change Deniers
+    vs. Believers"
+  event: Texas Economic Theory Camp, Southern Methodist University
+  location: Dallas, TX
   year: 2025
-  date: "October"
-
-- title: "A Time-Series Test for Election Fraud"
-  event: "Texas Economics Consortium Conference, University of Texas Rio Grande Valley"
-  location: "Edinburg, TX"
+  date: October
+- title: A Time-Series Test for Election Fraud
+  event: Texas Economics Consortium Conference, University of Texas Rio Grande Valley
+  location: Edinburg, TX
   year: 2025
-  date: "October"
-
-- title: "Price Discrimination and Focal Points for Tacit Collusion: Evidence from the Airline Industry"
-  event: "Universidad Autónoma de Nuevo León"
-  location: "San Nicolás de los Garza, Mexico"
+  date: October
+- title: "Price Discrimination and Focal Points for Tacit Collusion: Evidence from
+    the Airline Industry"
+  event: Universidad Autónoma de Nuevo León
+  location: San Nicolás de los Garza, Mexico
   year: 2025
-  date: "October"
+  date: October
   type: invited
-
-# --- 2024 ---
-- title: "Price Discrimination and Focal Points for Tacit Collusion: Evidence from the Airline Industry"
-  event: "Asia-Pacific Industrial Organization Conference, Sogang University"
-  location: "Seoul, South Korea"
+- title: "Price Discrimination and Focal Points for Tacit Collusion: Evidence from
+    the Airline Industry"
+  event: Asia-Pacific Industrial Organization Conference, Sogang University
+  location: Seoul, South Korea
   year: 2024
-  date: "December"
-
-- title: "The Effect of Air Quality on Real Estate Prices: Climate Change Deniers vs. Believers"
-  event: "Texas Economics Consortium Conference, Sam Houston State University"
-  location: "Huntsville, TX"
+  date: December
+- title: "The Effect of Air Quality on Real Estate Prices: Climate Change Deniers
+    vs. Believers"
+  event: Texas Economics Consortium Conference, Sam Houston State University
+  location: Huntsville, TX
   year: 2024
-  date: "October"
-
-- title: "Can Correction Messages Reduce the Spread of Fake News on Social Media? The Impact of Information Updates on the Effectiveness of Corrections"
-  event: "Western Economic Association International"
-  location: "Seattle, WA"
+  date: October
+- title: Can Correction Messages Reduce the Spread of Fake News on Social Media?
+    The Impact of Information Updates on the Effectiveness of Corrections
+  event: Western Economic Association International
+  location: Seattle, WA
   year: 2024
-  date: "July"
-
-# --- 2023 ---
-- title: "Can Correction Messages Reduce the Spread of Fake News on Social Media? The Impact of Information Updates on the Effectiveness of Corrections"
-  event: "Bolivian Conference in Development Economics"
-  location: "La Paz, Bolivia"
+  date: July
+- title: Can Correction Messages Reduce the Spread of Fake News on Social Media?
+    The Impact of Information Updates on the Effectiveness of Corrections
+  event: Bolivian Conference in Development Economics
+  location: La Paz, Bolivia
   year: 2023
-  date: "November"
-
-- title: "Late-Arriving Votes and Electoral Fraud: A Natural Experiment and Regression Discontinuity Evidence from Bolivia"
-  event: "Texas Economics Consortium Conference, Texas State University"
-  location: "San Marcos, TX"
+  date: November
+- title: "Late-Arriving Votes and Electoral Fraud: A Natural Experiment and
+    Regression Discontinuity Evidence from Bolivia"
+  event: Texas Economics Consortium Conference, Texas State University
+  location: San Marcos, TX
   year: 2023
-  date: "October"
-
-- title: "Late-Arriving Votes and Electoral Fraud: A Natural Experiment and Regression Discontinuity Evidence from Bolivia"
-  event: "Tulane University"
-  location: "New Orleans, LA"
+  date: October
+- title: "Late-Arriving Votes and Electoral Fraud: A Natural Experiment and
+    Regression Discontinuity Evidence from Bolivia"
+  event: Tulane University
+  location: New Orleans, LA
   year: 2023
-  date: "October"
+  date: October
   type: invited
-
-- title: "Late-Arriving Votes and Electoral Fraud: A Natural Experiment and Regression Discontinuity Evidence from Bolivia"
-  event: "University of Texas Rio Grande Valley"
-  location: "Edinburg, TX"
+- title: "Late-Arriving Votes and Electoral Fraud: A Natural Experiment and
+    Regression Discontinuity Evidence from Bolivia"
+  event: University of Texas Rio Grande Valley
+  location: Edinburg, TX
   year: 2023
-  date: "September"
+  date: September
   type: invited
-
-- title: "Bundling in Advance Sales: Theory and Evidence from Round-Trip versus Two One-Way Tickets"
-  event: "Western Economic Association International"
-  location: "San Diego, CA"
+- title: "Bundling in Advance Sales: Theory and Evidence from Round-Trip versus
+    Two One-Way Tickets"
+  event: Western Economic Association International
+  location: San Diego, CA
   year: 2023
-  date: "July"
-
-- title: "Bolivian Economic Outlook (Keynote Speaker)"
-  event: "American Chamber of Commerce of Bolivia"
-  location: "Cochabamba, Bolivia (Virtual)"
+  date: July
+- title: Bolivian Economic Outlook (Keynote Speaker)
+  event: American Chamber of Commerce of Bolivia
+  location: Cochabamba, Bolivia (Virtual)
   year: 2023
-  date: "April"
+  date: April
   type: invited
-
-# --- 2022 ---
-- title: "Price Exuberance and Contagion across Housing Markets: Evidence from U.S. Metropolitan Areas"
-  event: "Bolivian Conference in Development Economics"
-  location: "La Paz, Bolivia"
+- title: "Price Exuberance and Contagion across Housing Markets: Evidence from
+    U.S. Metropolitan Areas"
+  event: Bolivian Conference in Development Economics
+  location: La Paz, Bolivia
   year: 2022
-  date: "December"
-
-- title: "Modeling Lender's Choices and Competition between Borrowers in Online Peer-to-peer Markets"
-  event: "Southern Economic Association"
-  location: "Fort Lauderdale, FL"
+  date: December
+- title: Modeling Lender's Choices and Competition between Borrowers in Online
+    Peer-to-peer Markets
+  event: Southern Economic Association
+  location: Fort Lauderdale, FL
   year: 2022
-  date: "November"
-
-- title: "Bundling in Advance Sales: Theory and Evidence from Round-Trip versus Two One-Way Tickets"
-  event: "Universidad Católica Boliviana"
-  location: "La Paz, Bolivia"
+  date: November
+- title: "Bundling in Advance Sales: Theory and Evidence from Round-Trip versus
+    Two One-Way Tickets"
+  event: Universidad Católica Boliviana
+  location: La Paz, Bolivia
   year: 2022
-  date: "October"
+  date: October
   type: invited
-
-- title: "Seminar on Advanced Methods in Econometrics"
-  event: "Universidad Católica Boliviana"
-  location: "La Paz, Bolivia"
+- title: Seminar on Advanced Methods in Econometrics
+  event: Universidad Católica Boliviana
+  location: La Paz, Bolivia
   year: 2022
-  date: "October"
+  date: October
   type: invited
-
-- title: "U.S. Economic Outlook (Keynote Speaker)"
-  event: "Commodities Integrated Logistics, 30th Anniversary"
-  location: "McAllen, TX"
+- title: U.S. Economic Outlook (Keynote Speaker)
+  event: Commodities Integrated Logistics, 30th Anniversary
+  location: McAllen, TX
   year: 2022
-  date: "July"
+  date: July
   type: invited
-
-# --- 2021 ---
-- title: "Modeling Lender's Choices and Competition between Borrowers in Online Peer-to-peer Markets"
-  event: "Bolivian Conference in Development Economics"
-  location: "Virtual"
+- title: Modeling Lender's Choices and Competition between Borrowers in Online
+    Peer-to-peer Markets
+  event: Bolivian Conference in Development Economics
+  location: Virtual
   year: 2021
-  date: "November"
-
-- title: "Late-Arriving Votes and Electoral Fraud: A Natural Experiment and Regression Discontinuity Evidence from Bolivia"
-  event: "Southern Economic Association"
-  location: "Houston, TX"
+  date: November
+- title: "Late-Arriving Votes and Electoral Fraud: A Natural Experiment and
+    Regression Discontinuity Evidence from Bolivia"
+  event: Southern Economic Association
+  location: Houston, TX
   year: 2021
-  date: "November"
-
-- title: "Late-Arriving Votes and Electoral Fraud: A Natural Experiment and Regression Discontinuity Evidence from Bolivia"
-  event: "Latin American and Caribbean Economic Association (LACEA), Universidad del Rosario"
-  location: "Bogotá, Colombia (Virtual)"
+  date: November
+- title: "Late-Arriving Votes and Electoral Fraud: A Natural Experiment and
+    Regression Discontinuity Evidence from Bolivia"
+  event: Latin American and Caribbean Economic Association (LACEA), Universidad
+    del Rosario
+  location: Bogotá, Colombia (Virtual)
   year: 2021
-  date: "October"
-
-- title: "Bundling in Advance Sales: Theory and Evidence from Round-Trip versus Two One-Way Tickets"
-  event: "European Association for Research in Industrial Economics (EARIE), University of Bergen"
-  location: "Bergen, Norway (Virtual)"
+  date: October
+- title: "Bundling in Advance Sales: Theory and Evidence from Round-Trip versus
+    Two One-Way Tickets"
+  event: European Association for Research in Industrial Economics (EARIE),
+    University of Bergen
+  location: Bergen, Norway (Virtual)
   year: 2021
-  date: "August"
-
-- title: "Late-Arriving Votes and Electoral Fraud: A Natural Experiment and Regression Discontinuity Evidence from Bolivia"
-  event: "Midwest Political Science Association"
-  location: "Virtual"
+  date: August
+- title: "Late-Arriving Votes and Electoral Fraud: A Natural Experiment and
+    Regression Discontinuity Evidence from Bolivia"
+  event: Midwest Political Science Association
+  location: Virtual
   year: 2021
-  date: "April"
-
-- title: "Late-Arriving Votes and Electoral Fraud: A Natural Experiment and Regression Discontinuity Evidence from Bolivia"
-  event: "Western Political Science Association"
-  location: "Virtual"
+  date: April
+- title: "Late-Arriving Votes and Electoral Fraud: A Natural Experiment and
+    Regression Discontinuity Evidence from Bolivia"
+  event: Western Political Science Association
+  location: Virtual
   year: 2021
-  date: "April"
-
-- title: "Late-Arriving Votes and Electoral Fraud: Panel Presentation on Elections Data Analysis"
-  event: "Observatorio Elecciones Bolivia"
-  location: "Virtual"
+  date: April
+- title: "Late-Arriving Votes and Electoral Fraud: Panel Presentation on Elections
+    Data Analysis"
+  event: Observatorio Elecciones Bolivia
+  location: Virtual
   year: 2021
-  date: "March"
+  date: March
   type: invited
-
-- title: "Late-Arriving Votes and Electoral Fraud: A Natural Experiment and Regression Discontinuity Evidence from Bolivia"
-  event: "University of Oklahoma, Center for the Americas"
-  location: "Norman, OK (Virtual)"
+- title: "Late-Arriving Votes and Electoral Fraud: A Natural Experiment and
+    Regression Discontinuity Evidence from Bolivia"
+  event: University of Oklahoma, Center for the Americas
+  location: Norman, OK (Virtual)
   year: 2021
-  date: "February"
+  date: February
   type: invited
-
-- title: "Late-Arriving Votes and Electoral Fraud: A Natural Experiment and Regression Discontinuity Evidence from Bolivia"
-  event: "Asian Political Methodology & Australian Society for Quantitative Political Science"
-  location: "Virtual"
+- title: "Late-Arriving Votes and Electoral Fraud: A Natural Experiment and
+    Regression Discontinuity Evidence from Bolivia"
+  event: Asian Political Methodology & Australian Society for Quantitative
+    Political Science
+  location: Virtual
   year: 2021
-  date: "January"
-
-# --- 2020 ---
-- title: "Late-Arriving Votes and Electoral Fraud: A Natural Experiment and Regression Discontinuity Evidence from Bolivia"
-  event: "Bolivian Conference in Development Economics"
-  location: "Virtual"
+  date: January
+- title: "Late-Arriving Votes and Electoral Fraud: A Natural Experiment and
+    Regression Discontinuity Evidence from Bolivia"
+  event: Bolivian Conference in Development Economics
+  location: Virtual
   year: 2020
-  date: "July"
-
-- title: "Panel Presentation on COVID-19 and the Economy"
-  event: "Society of Bolivian Economists"
-  location: "Virtual"
+  date: July
+- title: Panel Presentation on COVID-19 and the Economy
+  event: Society of Bolivian Economists
+  location: Virtual
   year: 2020
-  date: "April"
+  date: April
   type: invited
-
-# --- 2019 ---
-- title: "Price Discrimination and Focal Points for Tacit Collusion: Evidence from the Airline Industry"
-  event: "Southern Economic Association"
-  location: "Fort Lauderdale, FL"
+- title: "Price Discrimination and Focal Points for Tacit Collusion: Evidence from
+    the Airline Industry"
+  event: Southern Economic Association
+  location: Fort Lauderdale, FL
   year: 2019
-  date: "November"
-
-- title: "Price Discrimination and Focal Points for Tacit Collusion: Evidence from the Airline Industry"
-  event: "Sam Houston State University"
-  location: "Huntsville, TX"
+  date: November
+- title: "Price Discrimination and Focal Points for Tacit Collusion: Evidence from
+    the Airline Industry"
+  event: Sam Houston State University
+  location: Huntsville, TX
   year: 2019
-  date: "October"
+  date: October
   type: invited
-
-- title: "Modeling Lender's Choices and Competition between Borrowers in Online Peer-to-peer Markets"
-  event: "Texas A&M University, ASHE Conference"
-  location: "College Station, TX"
+- title: Modeling Lender's Choices and Competition between Borrowers in Online
+    Peer-to-peer Markets
+  event: Texas A&M University, ASHE Conference
+  location: College Station, TX
   year: 2019
-  date: "October"
-
-- title: "Price Discrimination and Focal Points for Tacit Collusion: Evidence from the Airline Industry"
-  event: "Bolivian Academy of Economic Sciences"
-  location: "La Paz, Bolivia"
+  date: October
+- title: "Price Discrimination and Focal Points for Tacit Collusion: Evidence from
+    the Airline Industry"
+  event: Bolivian Academy of Economic Sciences
+  location: La Paz, Bolivia
   year: 2019
-  date: "July"
+  date: July
   type: invited
-
-- title: "Bundling in Advance Sales: Theory and Evidence from Round-Trip versus Two One-Way Tickets"
-  event: "INFORMS Revenue Management & Pricing Conference, Stanford University"
-  location: "Palo Alto, CA"
+- title: "Bundling in Advance Sales: Theory and Evidence from Round-Trip versus
+    Two One-Way Tickets"
+  event: INFORMS Revenue Management & Pricing Conference, Stanford University
+  location: Palo Alto, CA
   year: 2019
-  date: "June"
-
-- title: "Getting on and Moving up the Property Ladder: Real Hedging in the U.S. Housing Market before and after the Crisis"
-  event: "Western Economic Association International"
-  location: "San Francisco, CA"
+  date: June
+- title: "Getting on and Moving up the Property Ladder: Real Hedging in the U.S.
+    Housing Market before and after the Crisis"
+  event: Western Economic Association International
+  location: San Francisco, CA
   year: 2019
-  date: "June"
-
-- title: "Getting on and Moving up the Property Ladder: Real Hedging in the U.S. Housing Market before and after the Crisis"
-  event: "Financial Management Association International Global Conference, Pontificia Universidad Javeriana"
-  location: "Bogotá, Colombia"
+  date: June
+- title: "Getting on and Moving up the Property Ladder: Real Hedging in the U.S.
+    Housing Market before and after the Crisis"
+  event: Financial Management Association International Global Conference,
+    Pontificia Universidad Javeriana
+  location: Bogotá, Colombia
   year: 2019
-  date: "May"
-
-- title: "Price Discrimination and Focal Points for Tacit Collusion: Evidence from the Airline Industry"
-  event: "Universidad del Rosario"
-  location: "Bogotá, Colombia"
+  date: May
+- title: "Price Discrimination and Focal Points for Tacit Collusion: Evidence from
+    the Airline Industry"
+  event: Universidad del Rosario
+  location: Bogotá, Colombia
   year: 2019
-  date: "May"
+  date: May
   type: invited
-
-- title: "Price Discrimination and Focal Points for Tacit Collusion: Evidence from the Airline Industry"
-  event: "University of Texas Rio Grande Valley"
-  location: "Edinburg, TX"
+- title: "Price Discrimination and Focal Points for Tacit Collusion: Evidence from
+    the Airline Industry"
+  event: University of Texas Rio Grande Valley
+  location: Edinburg, TX
   year: 2019
-  date: "May"
+  date: May
   type: invited
-
-- title: "Modeling Lender's Choices and Competition between Borrowers in Online Peer-to-peer Markets"
-  event: "Texas A&M University, PLIO Alumni Conference"
-  location: "College Station, TX"
+- title: Modeling Lender's Choices and Competition between Borrowers in Online
+    Peer-to-peer Markets
+  event: Texas A&M University, PLIO Alumni Conference
+  location: College Station, TX
   year: 2019
-  date: "April"
-
-# --- 2018 ---
-- title: "ASHE Conference Presentation"
-  event: "Texas A&M University, ASHE Conference"
-  location: "College Station, TX"
+  date: April
+- title: ASHE Conference Presentation
+  event: Texas A&M University, ASHE Conference
+  location: College Station, TX
   year: 2018
-  date: "October"
-
-- title: "Price Discrimination and Focal Points for Tacit Collusion: Evidence from the Airline Industry"
-  event: "INFORMS Revenue Management & Pricing Conference, Scotiabank"
-  location: "Toronto, Canada"
+  date: October
+- title: "Price Discrimination and Focal Points for Tacit Collusion: Evidence from
+    the Airline Industry"
+  event: INFORMS Revenue Management & Pricing Conference, Scotiabank
+  location: Toronto, Canada
   year: 2018
-  date: "June"
-
-# --- 2017 ---
-- title: "Getting on and Moving up the Property Ladder: Real Hedging in the U.S. Housing Market before and after the Crisis"
-  event: "Financial Management Association International"
-  location: "Boston, MA"
+  date: June
+- title: "Getting on and Moving up the Property Ladder: Real Hedging in the U.S.
+    Housing Market before and after the Crisis"
+  event: Financial Management Association International
+  location: Boston, MA
   year: 2017
-  date: "October"
-
-- title: "Price Discrimination and Focal Points for Tacit Collusion: Evidence from the Airline Industry"
-  event: "Utah Valley University"
-  location: "Orem, UT"
+  date: October
+- title: "Price Discrimination and Focal Points for Tacit Collusion: Evidence from
+    the Airline Industry"
+  event: Utah Valley University
+  location: Orem, UT
   year: 2017
-  date: "October"
+  date: October
   type: invited
-
-- title: "Price Discrimination and Focal Points for Tacit Collusion: Evidence from the Airline Industry"
-  event: "European Association for Research in Industrial Economics (EARIE), Maastricht University"
-  location: "Maastricht, The Netherlands"
+- title: "Price Discrimination and Focal Points for Tacit Collusion: Evidence from
+    the Airline Industry"
+  event: European Association for Research in Industrial Economics (EARIE),
+    Maastricht University
+  location: Maastricht, The Netherlands
   year: 2017
-  date: "September"
-
-- title: "Explaining the Nonlinear Response of Stock Markets to Oil Price Shocks"
-  event: "Texas A&M University, ASHE Conference"
-  location: "College Station, TX"
+  date: September
+- title: Explaining the Nonlinear Response of Stock Markets to Oil Price Shocks
+  event: Texas A&M University, ASHE Conference
+  location: College Station, TX
   year: 2017
-  date: "September"
-
-- title: "Price Discrimination and Focal Points for Tacit Collusion: Evidence from the Airline Industry"
-  event: "European Economic Association"
-  location: "Lisbon, Portugal"
+  date: September
+- title: "Price Discrimination and Focal Points for Tacit Collusion: Evidence from
+    the Airline Industry"
+  event: European Economic Association
+  location: Lisbon, Portugal
   year: 2017
-  date: "August"
-
-- title: "Identifying Bubbles in Latin American Equity Markets: Phillips-Perron-based Tests and Linkages"
-  event: "Western Economic Association International"
-  location: "San Diego, CA"
+  date: August
+- title: "Identifying Bubbles in Latin American Equity Markets:
+    Phillips-Perron-based Tests and Linkages"
+  event: Western Economic Association International
+  location: San Diego, CA
   year: 2017
-  date: "June"
-
-# --- 2016 ---
-- title: "Identifying Bubbles in Latin American Equity Markets: Phillips-Perron-based Tests and Linkages"
-  event: "Banco de México (Central Bank of Mexico)"
-  location: "Mexico City, Mexico"
+  date: June
+- title: "Identifying Bubbles in Latin American Equity Markets:
+    Phillips-Perron-based Tests and Linkages"
+  event: Banco de México (Central Bank of Mexico)
+  location: Mexico City, Mexico
   year: 2016
-  date: "December"
+  date: December
   type: invited
-
-- title: "Price Discrimination and Focal Points for Tacit Collusion: Evidence from the Airline Industry"
-  event: "Latin American Meetings of the Econometric Society (LAMES), Universidad EAFIT"
-  location: "Medellín, Colombia"
+- title: "Price Discrimination and Focal Points for Tacit Collusion: Evidence from
+    the Airline Industry"
+  event: Latin American Meetings of the Econometric Society (LAMES), Universidad EAFIT
+  location: Medellín, Colombia
   year: 2016
-  date: "November"
-
-- title: "Discussant and Session Chair"
-  event: "Financial Management Association International"
-  location: "Las Vegas, NV"
+  date: November
+- title: Discussant and Session Chair
+  event: Financial Management Association International
+  location: Las Vegas, NV
   year: 2016
-  date: "October"
-
-- title: "Price Discrimination and Focal Points for Tacit Collusion: Evidence from the Airline Industry"
-  event: "Western Economic Association International"
-  location: "Portland, OR"
+  date: October
+- title: "Price Discrimination and Focal Points for Tacit Collusion: Evidence from
+    the Airline Industry"
+  event: Western Economic Association International
+  location: Portland, OR
   year: 2016
-  date: "June"
-
-- title: "Price Discrimination and Focal Points for Tacit Collusion: Evidence from the Airline Industry"
-  event: "International Industrial Organization Conference"
-  location: "Philadelphia, PA"
+  date: June
+- title: "Price Discrimination and Focal Points for Tacit Collusion: Evidence from
+    the Airline Industry"
+  event: International Industrial Organization Conference
+  location: Philadelphia, PA
   year: 2016
-  date: "April"
-
-# --- 2015 ---
+  date: April
 - title: "Separating between Unobserved Consumer Types: Evidence from Airlines"
-  event: "Latin American and Caribbean Economic Association (LACEA), Universidad Privada de Santa Cruz (UPSA)"
-  location: "Santa Cruz, Bolivia"
+  event: Latin American and Caribbean Economic Association (LACEA), Universidad
+    Privada de Santa Cruz (UPSA)
+  location: Santa Cruz, Bolivia
   year: 2015
-  date: "October"
-
-- title: "Price Discrimination and Focal Points for Tacit Collusion: Evidence from the Airline Industry"
-  event: "Texas A&M University, ASHE Conference"
-  location: "College Station, TX"
+  date: October
+- title: "Price Discrimination and Focal Points for Tacit Collusion: Evidence from
+    the Airline Industry"
+  event: Texas A&M University, ASHE Conference
+  location: College Station, TX
   year: 2015
-  date: "September"
-
+  date: September
 - title: "Separating between Unobserved Consumer Types: Evidence from Airlines"
-  event: "Institute for Advanced Development Studies (INESAD)"
-  location: "La Paz, Bolivia"
+  event: Institute for Advanced Development Studies (INESAD)
+  location: La Paz, Bolivia
   year: 2015
-  date: "June"
+  date: June
   type: invited
-
-- title: "Two-Day Seminar on Advanced Methods in Econometrics"
-  event: "Universidad Católica Boliviana"
-  location: "La Paz, Bolivia"
+- title: Two-Day Seminar on Advanced Methods in Econometrics
+  event: Universidad Católica Boliviana
+  location: La Paz, Bolivia
   year: 2015
-  date: "June"
+  date: June
   type: invited
-
-- title: "Seminar on Advanced Methods in Econometrics"
-  event: "Universidad Mayor de San Andrés"
-  location: "La Paz, Bolivia"
+- title: Seminar on Advanced Methods in Econometrics
+  event: Universidad Mayor de San Andrés
+  location: La Paz, Bolivia
   year: 2015
-  date: "June"
+  date: June
   type: invited
-
 - title: "Separating between Unobserved Consumer Types: Evidence from Airlines"
-  event: "International Industrial Organization Conference"
-  location: "Boston, MA"
+  event: International Industrial Organization Conference
+  location: Boston, MA
   year: 2015
-  date: "April"
-
-# --- 2014 ---
-- title: "An Analysis of Dynamic Price Discrimination in Airlines"
-  event: "Southern Economic Association"
-  location: "Atlanta, GA"
+  date: April
+- title: An Analysis of Dynamic Price Discrimination in Airlines
+  event: Southern Economic Association
+  location: Atlanta, GA
   year: 2014
-  date: "November"
-
+  date: November
 - title: "Separating between Unobserved Consumer Types: Evidence from Airlines"
-  event: "Southern Economic Association"
-  location: "Atlanta, GA"
+  event: Southern Economic Association
+  location: Atlanta, GA
   year: 2014
-  date: "November"
-
-- title: "Getting on and Moving up the Property Ladder: Real Hedging in the U.S. Housing Market before and after the Crisis"
-  event: "Texas A&M University, ASHE Conference"
-  location: "College Station, TX"
+  date: November
+- title: "Getting on and Moving up the Property Ladder: Real Hedging in the U.S.
+    Housing Market before and after the Crisis"
+  event: Texas A&M University, ASHE Conference
+  location: College Station, TX
   year: 2014
-  date: "October"
-
-- title: "An Analysis of Dynamic Price Discrimination in Airlines"
-  event: "European Association for Research in Industrial Economics (EARIE), Bocconi University"
-  location: "Milan, Italy"
+  date: October
+- title: An Analysis of Dynamic Price Discrimination in Airlines
+  event: European Association for Research in Industrial Economics (EARIE),
+    Bocconi University
+  location: Milan, Italy
   year: 2014
-  date: "August"
-
-- title: "Presentation on Socio-Economic Forecasts"
-  event: "Dannenbaum Engineering Corporation"
-  location: "McAllen, TX"
+  date: August
+- title: Presentation on Socio-Economic Forecasts
+  event: Dannenbaum Engineering Corporation
+  location: McAllen, TX
   year: 2014
-  date: "July"
+  date: July
   type: invited
-
-- title: "Price Matching in Airline Markets"
-  event: "Western Economic Association International"
-  location: "Denver, CO"
+- title: Price Matching in Airline Markets
+  event: Western Economic Association International
+  location: Denver, CO
   year: 2014
-  date: "June"
-
-- title: "Long-Run Equilibrium Shift and Short-Run Dynamics of U.S. Home Price Tiers during the Housing Bubble"
-  event: "Western Economic Association International"
-  location: "Denver, CO"
+  date: June
+- title: Long-Run Equilibrium Shift and Short-Run Dynamics of U.S. Home Price
+    Tiers during the Housing Bubble
+  event: Western Economic Association International
+  location: Denver, CO
   year: 2014
-  date: "June"
-
-# --- 2013 ---
-- title: "A Time Series Test to Identify Housing Bubbles"
-  event: "Southern Economic Association"
-  location: "Tampa, FL"
+  date: June
+- title: A Time Series Test to Identify Housing Bubbles
+  event: Southern Economic Association
+  location: Tampa, FL
   year: 2013
-  date: "November"
-
-- title: "Price Matching in Airline Markets"
-  event: "Southern Economic Association"
-  location: "Tampa, FL"
+  date: November
+- title: Price Matching in Airline Markets
+  event: Southern Economic Association
+  location: Tampa, FL
   year: 2013
-  date: "November"
-
-- title: "Is the Response of Output to Government Expenditures Asymmetric?"
-  event: "Texas A&M University, ASHE Conference"
-  location: "College Station, TX"
+  date: November
+- title: Is the Response of Output to Government Expenditures Asymmetric?
+  event: Texas A&M University, ASHE Conference
+  location: College Station, TX
   year: 2013
-  date: "October"
-
-- title: "An Analysis of Dynamic Price Discrimination in Airlines"
-  event: "INFORMS Revenue Management & Pricing Conference, Georgia Tech"
-  location: "Atlanta, GA"
+  date: October
+- title: An Analysis of Dynamic Price Discrimination in Airlines
+  event: INFORMS Revenue Management & Pricing Conference, Georgia Tech
+  location: Atlanta, GA
   year: 2013
-  date: "June"
-
-- title: "An Analysis of Dynamic Price Discrimination in Airlines"
-  event: "International Industrial Organization Conference"
-  location: "Boston, MA"
+  date: June
+- title: An Analysis of Dynamic Price Discrimination in Airlines
+  event: International Industrial Organization Conference
+  location: Boston, MA
   year: 2013
-  date: "May"
-
-- title: "Output Growth and Unexpected Government Expenditures"
-  event: "Texas A&M University - Corpus Christi"
-  location: "Corpus Christi, TX"
+  date: May
+- title: Output Growth and Unexpected Government Expenditures
+  event: Texas A&M University - Corpus Christi
+  location: Corpus Christi, TX
   year: 2013
-  date: "April"
+  date: April
   type: invited
-
-- title: "Price Discrimination through Refund Contracts in Airlines"
-  event: "Universidad Privada Boliviana"
-  location: "La Paz, Bolivia"
+- title: Price Discrimination through Refund Contracts in Airlines
+  event: Universidad Privada Boliviana
+  location: La Paz, Bolivia
   year: 2013
-  date: "March"
+  date: March
   type: invited
-
-# --- 2012 ---
-- title: "Asymmetric Price Adjustments in Airlines"
-  event: "Southern Economic Association"
-  location: "New Orleans, LA"
+- title: Asymmetric Price Adjustments in Airlines
+  event: Southern Economic Association
+  location: New Orleans, LA
   year: 2012
-  date: "November"
-
-- title: "An Analysis of Dynamic Price Discrimination in Airlines"
-  event: "Southern Economic Association"
-  location: "New Orleans, LA"
+  date: November
+- title: An Analysis of Dynamic Price Discrimination in Airlines
+  event: Southern Economic Association
+  location: New Orleans, LA
   year: 2012
-  date: "November"
-
-- title: "Price Discrimination through Refund Contracts in Airlines"
-  event: "Texas A&M University - Corpus Christi"
-  location: "Corpus Christi, TX"
+  date: November
+- title: Price Discrimination through Refund Contracts in Airlines
+  event: Texas A&M University - Corpus Christi
+  location: Corpus Christi, TX
   year: 2012
-  date: "November"
+  date: November
   type: invited
-
-- title: "An Analysis of Dynamic Price Discrimination in Airlines"
-  event: "Texas A&M University, ASHE Conference"
-  location: "College Station, TX"
+- title: An Analysis of Dynamic Price Discrimination in Airlines
+  event: Texas A&M University, ASHE Conference
+  location: College Station, TX
   year: 2012
-  date: "October"
-
-- title: "Asymmetric Price Adjustments in Airlines"
-  event: "Western Economic Association International"
-  location: "San Francisco, CA"
+  date: October
+- title: Asymmetric Price Adjustments in Airlines
+  event: Western Economic Association International
+  location: San Francisco, CA
   year: 2012
-  date: "July"
-
-- title: "Expectations and the Dynamic Feedback between Foreign Direct Investment and Economic Growth"
-  event: "Western Economic Association International"
-  location: "San Francisco, CA"
+  date: July
+- title: Expectations and the Dynamic Feedback between Foreign Direct Investment
+    and Economic Growth
+  event: Western Economic Association International
+  location: San Francisco, CA
   year: 2012
-  date: "July"
-
-- title: "Price Discrimination through Refund Contracts in Airlines"
-  event: "East Carolina University"
-  location: "Greenville, NC"
+  date: July
+- title: Price Discrimination through Refund Contracts in Airlines
+  event: East Carolina University
+  location: Greenville, NC
   year: 2012
-  date: "May"
+  date: May
   type: invited
-
-- title: "Demand Uncertainty and Capacity Utilization in Airlines"
-  event: "International Industrial Organization Conference"
-  location: "Arlington, VA"
+- title: Demand Uncertainty and Capacity Utilization in Airlines
+  event: International Industrial Organization Conference
+  location: Arlington, VA
   year: 2012
-  date: "March"
-
-- title: "Price Discrimination through Refund Contracts in Airlines"
-  event: "California State University, Fullerton"
-  location: "Fullerton, CA"
+  date: March
+- title: Price Discrimination through Refund Contracts in Airlines
+  event: California State University, Fullerton
+  location: Fullerton, CA
   year: 2012
-  date: "February"
+  date: February
   type: invited
-
-# --- 2011 ---
-- title: "Dynamic Pricing, Advance Sales, and Aggregate Demand Learning in Airlines"
-  event: "Texas State University"
-  location: "San Marcos, TX"
+- title: Dynamic Pricing, Advance Sales, and Aggregate Demand Learning in Airlines
+  event: Texas State University
+  location: San Marcos, TX
   year: 2011
-  date: "November"
+  date: November
   type: invited
-
-- title: "Dynamic Pricing, Advance Sales, and Aggregate Demand Learning in Airlines"
-  event: "Duke University, DITE Workshop"
-  location: "Durham, NC"
+- title: Dynamic Pricing, Advance Sales, and Aggregate Demand Learning in Airlines
+  event: Duke University, DITE Workshop
+  location: Durham, NC
   year: 2011
-  date: "June"
+  date: June
   type: invited
-
-- title: "Asymmetric Price Adjustments in Airlines"
-  event: "International Industrial Organization Conference"
-  location: "Boston, MA"
+- title: Asymmetric Price Adjustments in Airlines
+  event: International Industrial Organization Conference
+  location: Boston, MA
   year: 2011
-  date: "April"
-
-# --- 2010 ---
-- title: "Asymmetric Price Adjustments in Airlines"
-  event: "University of Alabama"
-  location: "Tuscaloosa, AL"
+  date: April
+- title: Asymmetric Price Adjustments in Airlines
+  event: University of Alabama
+  location: Tuscaloosa, AL
   year: 2010
-  date: "December"
+  date: December
   type: invited
-
 - title: "Agglomeration and Matching Frictions: Evidence from Airline Markets"
-  event: "Southern Economic Association"
-  location: "Atlanta, GA"
+  event: Southern Economic Association
+  location: Atlanta, GA
   year: 2010
-  date: "November"
-
-- title: "Asymmetric Price Adjustments in Airlines"
-  event: "University of Texas - Pan American"
-  location: "Edinburg, TX"
+  date: November
+- title: Asymmetric Price Adjustments in Airlines
+  event: University of Texas - Pan American
+  location: Edinburg, TX
   year: 2010
-  date: "November"
+  date: November
   type: invited
-
-- title: "Dynamic Pricing, Advance Sales, and Aggregate Demand Learning in Airlines"
-  event: "Western Economic Association International"
-  location: "Portland, OR"
+- title: Dynamic Pricing, Advance Sales, and Aggregate Demand Learning in Airlines
+  event: Western Economic Association International
+  location: Portland, OR
   year: 2010
-  date: "July"
-
-- title: "Price Discrimination through Refund Contracts in Airlines"
-  event: "University of Texas - Pan American"
-  location: "Edinburg, TX"
+  date: July
+- title: Price Discrimination through Refund Contracts in Airlines
+  event: University of Texas - Pan American
+  location: Edinburg, TX
   year: 2010
-  date: "January"
+  date: January
   type: invited
-
-# --- 2009 ---
-- title: "Price Discrimination through Refund Contracts in Airlines"
-  event: "Universidad de Chile, Department of Economics"
-  location: "Santiago, Chile"
+- title: Price Discrimination through Refund Contracts in Airlines
+  event: Universidad de Chile, Department of Economics
+  location: Santiago, Chile
   year: 2009
-  date: "December"
+  date: December
   type: invited
-
-- title: "Price Discrimination through Refund Contracts in Airlines"
-  event: "Universidad de Chile, Department of Industrial Engineering"
-  location: "Santiago, Chile"
+- title: Price Discrimination through Refund Contracts in Airlines
+  event: Universidad de Chile, Department of Industrial Engineering
+  location: Santiago, Chile
   year: 2009
-  date: "December"
+  date: December
   type: invited
-
-- title: "Demand Shifting across Flights and Airports in a Spatial Competition Model"
-  event: "Southern Economic Association"
-  location: "San Antonio, TX"
+- title: Demand Shifting across Flights and Airports in a Spatial Competition Model
+  event: Southern Economic Association
+  location: San Antonio, TX
   year: 2009
-  date: "November"
-
-- title: "Price Discrimination through Refund Contracts in Airlines"
-  event: "Western Economic Association International"
-  location: "Vancouver, Canada"
+  date: November
+- title: Price Discrimination through Refund Contracts in Airlines
+  event: Western Economic Association International
+  location: Vancouver, Canada
   year: 2009
-  date: "June"
-
-- title: "Price Discrimination through Refund Contracts in Airlines"
-  event: "University of Louisville"
-  location: "Louisville, KY"
+  date: June
+- title: Price Discrimination through Refund Contracts in Airlines
+  event: University of Louisville
+  location: Louisville, KY
   year: 2009
-  date: "March"
+  date: March
   type: invited
-
-- title: "Price Discrimination through Refund Contracts in Airlines"
-  event: "American Economic Association"
-  location: "San Francisco, CA"
+- title: Price Discrimination through Refund Contracts in Airlines
+  event: American Economic Association
+  location: San Francisco, CA
   year: 2009
-  date: "January"
-
-# --- 2008 ---
-- title: "Dynamic Pricing, Advance Sales, and Aggregate Demand Learning in Airlines"
-  event: "Southern Economic Association"
-  location: "Washington, DC"
+  date: January
+- title: Dynamic Pricing, Advance Sales, and Aggregate Demand Learning in Airlines
+  event: Southern Economic Association
+  location: Washington, DC
   year: 2008
-  date: "November"
-
-- title: "Price Discrimination through Refund Contracts in Airlines"
-  event: "International Industrial Organization Conference"
-  location: "Arlington, VA"
+  date: November
+- title: Price Discrimination through Refund Contracts in Airlines
+  event: International Industrial Organization Conference
+  location: Arlington, VA
   year: 2008
-  date: "May"
-
-- title: "Price Dispersion under Costly Capacity and Demand Uncertainty"
-  event: "Bates White Economic Consulting"
-  location: "Washington, DC"
+  date: May
+- title: Price Dispersion under Costly Capacity and Demand Uncertainty
+  event: Bates White Economic Consulting
+  location: Washington, DC
   year: 2008
-  date: "January"
+  date: January
   type: invited
-
-- title: "Price Dispersion under Costly Capacity and Demand Uncertainty"
-  event: "Sam Houston State University"
-  location: "Huntsville, TX"
+- title: Price Dispersion under Costly Capacity and Demand Uncertainty
+  event: Sam Houston State University
+  location: Huntsville, TX
   year: 2008
-  date: "January"
+  date: January
   type: invited
-
-- title: "Price Dispersion under Costly Capacity and Demand Uncertainty"
-  event: "San Francisco State University"
-  location: "San Francisco, CA"
+- title: Price Dispersion under Costly Capacity and Demand Uncertainty
+  event: San Francisco State University
+  location: San Francisco, CA
   year: 2008
-  date: "January"
+  date: January
   type: invited
-
-- title: "Price Dispersion under Costly Capacity and Demand Uncertainty"
-  event: "University of Tennessee"
-  location: "Knoxville, TN"
+- title: Price Dispersion under Costly Capacity and Demand Uncertainty
+  event: University of Tennessee
+  location: Knoxville, TN
   year: 2008
-  date: "January"
+  date: January
   type: invited
-
-# --- 2007 ---
-- title: "Dynamic Pricing, Advance Sales, and Aggregate Demand Learning in Airlines"
-  event: "Texas A&M University, Applied Micro Seminar"
-  location: "College Station, TX"
+- title: Dynamic Pricing, Advance Sales, and Aggregate Demand Learning in Airlines
+  event: Texas A&M University, Applied Micro Seminar
+  location: College Station, TX
   year: 2007
-  date: "September"
+  date: September
   type: invited
-
-- title: "Price Dispersion under Costly Capacity and Demand Uncertainty"
-  event: "International Industrial Organization Conference"
-  location: "Savannah, GA"
+- title: Price Dispersion under Costly Capacity and Demand Uncertainty
+  event: International Industrial Organization Conference
+  location: Savannah, GA
   year: 2007
-  date: "April"
-
-- title: "Price Dispersion under Costly Capacity and Demand Uncertainty"
-  event: "Texas A&M University, PERC Applied Micro Workshop"
-  location: "College Station, TX"
+  date: April
+- title: Price Dispersion under Costly Capacity and Demand Uncertainty
+  event: Texas A&M University, PERC Applied Micro Workshop
+  location: College Station, TX
   year: 2007
-  date: "February"
+  date: February
   type: invited
-
-- title: "Price Dispersion under Costly Capacity and Demand Uncertainty"
-  event: "Texas Camp Econometrics XII"
-  location: "League City, TX"
+- title: Price Dispersion under Costly Capacity and Demand Uncertainty
+  event: Texas Camp Econometrics XII
+  location: League City, TX
   year: 2007
-  date: "February"
-
-# --- 2006 ---
-- title: "Testing for Stochastic and β-convergence in Latin American Countries"
-  event: "Texas A&M University, PTSAFE Workshop"
-  location: "College Station, TX"
+  date: February
+- title: Testing for Stochastic and β-convergence in Latin American Countries
+  event: Texas A&M University, PTSAFE Workshop
+  location: College Station, TX
   year: 2006
-  date: "September"
+  date: September
   type: invited
-
-- title: "Presentation on Small Business Lending"
-  event: "Inter-American Development Bank"
-  location: "Washington, DC"
+- title: Presentation on Small Business Lending
+  event: Inter-American Development Bank
+  location: Washington, DC
   year: 2006
-  date: "July"
+  date: July
   type: invited
-
-- title: "Systematic Peak-load Pricing, Congestion Premia and Demand Diverting: Empirical Evidence"
-  event: "International Industrial Organization Conference"
-  location: "Boston, MA"
+- title: "Systematic Peak-load Pricing, Congestion Premia and Demand Diverting:
+    Empirical Evidence"
+  event: International Industrial Organization Conference
+  location: Boston, MA
   year: 2006
-  date: "April"
-
-- title: "Testing for Stochastic and β-convergence in Latin American Countries"
-  event: "Southwestern Economics Association"
-  location: "San Antonio, TX"
+  date: April
+- title: Testing for Stochastic and β-convergence in Latin American Countries
+  event: Southwestern Economics Association
+  location: San Antonio, TX
   year: 2006
-  date: "April"
-
-- title: "Imperfect Detection of Tax Evasion in a Corrupt Tax Administration"
-  event: "Midwest Economics Association"
-  location: "Chicago, IL"
+  date: April
+- title: Imperfect Detection of Tax Evasion in a Corrupt Tax Administration
+  event: Midwest Economics Association
+  location: Chicago, IL
   year: 2006
-  date: "March"
-
-# --- 2005 ---
-- title: "Imperfect Detection of Tax Evasion in a Corrupt Tax Administration"
-  event: "Southern Economic Association"
-  location: "Washington, DC"
+  date: March
+- title: Imperfect Detection of Tax Evasion in a Corrupt Tax Administration
+  event: Southern Economic Association
+  location: Washington, DC
   year: 2005
-  date: "November"
-
-- title: "Imperfect Detection of Tax Evasion in a Corrupt Tax Administration"
-  event: "Southwestern Economics Association"
-  location: "New Orleans, LA"
+  date: November
+- title: Imperfect Detection of Tax Evasion in a Corrupt Tax Administration
+  event: Southwestern Economics Association
+  location: New Orleans, LA
   year: 2005
-  date: "March"
+  date: March
