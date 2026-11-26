@@ -1,7 +1,7 @@
 ---
-title: "Talks"
+title: "Presentations"
 layout: page
-permalink: /talks/
+permalink: /presentations/
 ---
 
 # Talks
