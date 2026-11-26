@@ -1,10 +1,10 @@
 ---
-title: "Teaching"
+title: "Empty"
 layout: page
-permalink: /teaching/
+permalink: /empty/
 ---
 
-# Teaching
+# Empty
 
 {% if site.data.teaching.size > 0 %}
 <div class="section-card" markdown="0">
