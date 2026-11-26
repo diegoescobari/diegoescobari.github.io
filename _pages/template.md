@@ -4,7 +4,7 @@ layout: page
 permalink: /template/
 ---
 
-# Research
+# Template
 
 <div class="research-grid">
 
