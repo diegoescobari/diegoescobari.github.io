@@ -90,16 +90,33 @@ permalink: /publications/
   .pub-filters {
     margin: 16px 0 24px;
   }
-  .filter-group {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 6px;
+
+  
+.filter-group {
+    display: grid;
+    grid-template-columns: 125px 1fr;
+    align-items: start;
+    column-gap: 10px;
     margin-bottom: 10px;
     font-size: 0.88rem;
   }
-  .filter-group strong { min-width: 148px; color: #334155; }
-  .filter-pills { display: flex; flex-wrap: wrap; gap: 6px; }
+  .filter-group strong {
+    padding-top: 3px;
+    color: #334155;
+  }
+  .filter-pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  @media (max-width: 600px) {
+    .filter-group {
+      grid-template-columns: 1fr;
+      row-gap: 4px;
+    }
+  }
+
+  
   .pub-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
 
   .filter-pill, .pub-tag-btn {
