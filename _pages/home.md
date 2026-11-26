@@ -20,14 +20,6 @@ Please use this website to find the links to my research papers and learn about 
 <div class="research-grid">
 
 <div class="research-card">
-<img src="{{ '/images/research/believers.jpg' | relative_url }}" class="research-thumb" width="1032" height="568" alt="Climate Change Deniers">
-<div class="research-body">
-<h2 class="research-title">Climate Change Deniers</h2>
-<p class="research-desc">Using an equilibrium and finite-mixture model with 2014–2022 U.S. county data, we show that air quality risk significantly reduces house prices in climate-change believer regimes, but not in denier regimes.</p>
-</div>
-</div>
-
-<div class="research-card">
 <img src="{{ '/images/research/fraud.jpg' | relative_url }}" class="research-thumb" width="916" height="472" alt="Election Fraud">
 <div class="research-body">
 <h2 class="research-title">Election Fraud</h2>
@@ -48,6 +40,14 @@ Please use this website to find the links to my research papers and learn about 
 <div class="research-body">
 <h2 class="research-title">Viral Media Content</h2>
 <p class="research-desc">Introduces a statistical procedure within a utility-based Hawkes framework to detect and date-stamp explosion and collapse phases in viral media content, revealing how emotions and user characteristics asymmetrically drive engagement dynamics.</p>
+</div>
+</div>
+
+<div class="research-card">
+<img src="{{ '/images/research/believers.jpg' | relative_url }}" class="research-thumb" width="1032" height="568" alt="Climate Change Deniers">
+<div class="research-body">
+<h2 class="research-title">Climate Change Deniers</h2>
+<p class="research-desc">Using an equilibrium and finite-mixture model with 2014–2022 U.S. county data, we show that air quality risk significantly reduces house prices in climate-change believer regimes, but not in denier regimes.</p>
 </div>
 </div>
 
