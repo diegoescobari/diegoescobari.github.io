@@ -17,9 +17,9 @@ permalink: /template/
 </div>
 
 <div class="research-card">
-<img src="{{ '/images/research/slide_forecast.jpg' | relative_url }}" class="research-thumb" width="1003" height="526" alt="Business and Economics Forecasting">
+<img src="{{ '/images/research/slide_forecast.jpg' | relative_url }}" class="research-thumb" width="1003" height="526" alt="Business and Econ Forecasting">
 <div class="research-body">
-<h2 class="research-title">Business and Economics Forecasting</h2>
+<h2 class="research-title">Business and Econ Forecasting</h2>
 <p class="research-desc">Empirical application of econometric techniques to forecasting in business and economics. Starting from regression, model specification, and hypothesis testing, the course examines modern forecasting methods. Students learn to analyze time series data and build models incorporating trend, seasonal, and cyclical components.</p>
 </div>
 </div>
