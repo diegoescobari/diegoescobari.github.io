@@ -1,7 +1,7 @@
 ---
-title: "Research"
+title: "Template"
 layout: page
-permalink: /research/
+permalink: /template/
 ---
 
 # Research
