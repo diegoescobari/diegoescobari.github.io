@@ -6,15 +6,19 @@ permalink: /presentations/
 
 # Presentations
 
-{% assign talks_by_year = site.data.talks | group_by: "year" | sort: "name" | reverse %}
-
-{% for year_group in talks_by_year %}
+{% if site.data.talks.size > 0 %}
+{% assign current_year = "" %}
+{% for talk in site.data.talks %}
+{% capture talk_year %}{{ talk.year }}{% endcapture %}
+{% if talk_year != current_year %}
+{% unless forloop.first %}</div>{% endunless %}
+{% assign current_year = talk_year %}
 <div class="section-card" markdown="0">
-<h2>{{ year_group.name }}</h2>
-{% for talk in year_group.items %}{% include talk.html talk=talk %}{% endfor %}
-</div>
+<h2>{{ current_year }}</h2>
+{% endif %}
+{% include talk.html talk=talk %}
+{% if forloop.last %}</div>{% endif %}
 {% endfor %}
-
-{% unless site.data.talks.size > 0 %}
+{% else %}
 <p class="text-muted">No talks listed yet. Add entries to <code>_data/talks.yml</code>.</p>
-{% endunless %}
+{% endif %}
