@@ -15,19 +15,6 @@ I obtained my PhD in Economics from Texas A&M University. I am currently the Vic
 
 Please use this website to find the links to my research papers and learn about my teaching. Thank you for taking the time.
 
-<div class="callout callout-success" markdown="0">
-<div class="callout-title">{% include icon.html name="award" class="callout-icon" %} Nobel Prize in Physics, 1965</div>
-<p>Awarded the Nobel Prize jointly with Julian Schwinger and Shin'ichiro Tomonaga for fundamental work in quantum electrodynamics, with deep-ploughing consequences for the physics of elementary particles.</p>
-</div>
-
-<div class="banner-frame" markdown="0">
-<img src="{{ '/images/banner.webp' | relative_url }}" alt="Feynman diagrams" width="1400" height="449" loading="lazy">
-<div class="banner-caption">Examples of Feynman diagrams. Feynman R., <em>The theory of positrons. Phys. Rev.</em> (1949)</div>
-</div>
-
-
-
-
 <h2>Selected Current Research</h2>
 
 <div class="research-grid">
@@ -46,6 +33,14 @@ Please use this website to find the links to my research papers and learn about 
 <div class="research-body">
 <h2 class="research-title">Econometrics I (PhD)</h2>
 <p class="research-desc">This course introduces core econometric tools and their implementation in empirical research and practical applications. Emphasizing methodological foundations and real-world relevance, students learn to analyze data using statistical software, interpret empirical output, and confidently conduct independent quantitative analysis.</p>
+</div>
+</div>
+
+<div class="research-card">
+<img src="{{ '/images/research/slide_ecmt2.jpg' | relative_url }}" class="research-thumb" width="600" height="300" alt="Econometrics II">
+<div class="research-body">
+<h2 class="research-title">Econometrics II (PhD)</h2>
+<p class="research-desc">This course covers the core methods of modern time series analysis, emphasizing their underlying foundations and real-world applications. Through lectures, readings, and hands-on statistical software exercises, students learn to evaluate applied research, interpret econometric output, and conduct independent empirical analysis.</p>
 </div>
 </div>
 
