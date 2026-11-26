@@ -20,45 +20,37 @@ Please use this website to find the links to my research papers and learn about 
 <div class="research-grid">
 
 <div class="research-card">
-<img src="{{ '/images/research/slide_me.jpg' | relative_url }}" class="research-thumb" width="600" height="300" alt="Fall 2026 Office Hours">
+<img src="{{ '/images/research/believers.jpg' | relative_url }}" class="research-thumb" width="1032" height="568" alt="Climate Change Deniers">
 <div class="research-body">
-<h2 class="research-title">Fall 2026 Office Hours</h2>
-<p class="research-desc">TR 10:00 a.m. – 12:00 p.m. and by appointment.</p>
-<p class="research-desc">Class material is posted on Brightspace.</p>
+<h2 class="research-title">Climate Change Deniers</h2>
+<p class="research-desc">Using an equilibrium and finite-mixture model with 2014–2022 U.S. county data, we show that air quality risk significantly reduces house prices in climate-change believer regimes, but not in denier regimes.</p>
 </div>
 </div>
 
 <div class="research-card">
-<img src="{{ '/images/research/slide_ecmt1.jpg' | relative_url }}" class="research-thumb" width="600" height="300" alt="Econometrics I">
+<img src="{{ '/images/research/fraud.jpg' | relative_url }}" class="research-thumb" width="916" height="472" alt="Election Fraud">
 <div class="research-body">
-<h2 class="research-title">Econometrics I (PhD)</h2>
-<p class="research-desc">This course introduces core econometric tools and their implementation in empirical research and practical applications. Emphasizing methodological foundations and real-world relevance, students learn to analyze data using statistical software, interpret empirical output, and confidently conduct independent quantitative analysis.</p>
+<h2 class="research-title">Election Fraud</h2>
+<p class="research-desc">Modeling electoral fraud as an inspection game, this paper shows incumbents back-load manipulation into late tallies and proposes a real-time recursive time-series test to detect explosive surges, outperforming regression discontinuity designs.</p>
 </div>
 </div>
 
 <div class="research-card">
-<img src="{{ '/images/research/slide_ecmt2.jpg' | relative_url }}" class="research-thumb" width="600" height="300" alt="Econometrics II">
+<img src="{{ '/images/research/predict.jpg' | relative_url }}" class="research-thumb" width="910" height="499" alt="Prediction Markets">
+<div class="research-body">
+<h2 class="research-title">Prediction Markets</h2>
+<p class="research-desc">Bridging decentralized prediction markets and continuous-time asset pricing, this paper evaluates Polymarket equity contracts, showing that behavioral favorite-longshot bias drives pricing errors and systematically misallocates 1.57% of aggregate market volume.</p>
+</div>
+</div>
+
+<div class="research-card">
+<img src="{{ '/images/research/viral.jpg' | relative_url }}" class="research-thumb" width="1041" height="568" alt="Viral Media Content">
 <div class="research-body">
 <h2 class="research-title">Econometrics II (PhD)</h2>
-<p class="research-desc">This course covers the core methods of modern time series analysis, emphasizing their underlying foundations and real-world applications. Through lectures, readings, and hands-on statistical software exercises, students learn to evaluate applied research, interpret econometric output, and conduct independent empirical analysis.</p>
-</div>
-</div>
-
-<div class="research-card">
-<img src="{{ '/images/research/slide_ecmt2.jpg' | relative_url }}" class="research-thumb" width="600" height="300" alt="Econometrics II">
-<div class="research-body">
-<h2 class="research-title">Econometrics II (PhD)</h2>
-<p class="research-desc">This course covers the core methods of modern time series analysis, emphasizing their underlying foundations and real-world applications. Through lectures, readings, and hands-on statistical software exercises, students learn to evaluate applied research, interpret econometric output, and conduct independent empirical analysis.</p>
+<p class="research-desc">Introduces a statistical procedure within a utility-based Hawkes framework to detect and date-stamp explosion and collapse phases in viral media content, revealing how emotions and user characteristics asymmetrically drive engagement dynamics.</p>
 </div>
 </div>
 
 </div>
 
 
-<div class="chip-container" markdown="0">
-<a href="{{ '/cv'            | relative_url }}" class="chip">C.V.</a>
-<a href="{{ '/research'      | relative_url }}" class="chip">Research</a>
-<a href="{{ '/presentations' | relative_url }}" class="chip">Presentations</a>
-<a href="{{ '/teaching'      | relative_url }}" class="chip">Teaching</a>
-<a href="{{ '/contact'       | relative_url }}" class="chip">Contact</a>
-</div>
