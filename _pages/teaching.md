@@ -1,10 +1,10 @@
 ---
-title: "Template"
+title: "Teaching"
 layout: page
-permalink: /template/
+permalink: /teaching/
 ---
 
-# Template
+# Teaching
 
 <div class="research-grid">
 
