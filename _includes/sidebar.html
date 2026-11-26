@@ -30,7 +30,7 @@
 {% for item in site.data.presentations limit:6 %}
 <div class="news-item">
 <div class="news-date">{% if item.date %}{{ item.date }} {% endif %}{{ item.year }}</div>
-<div class="news-headline"><strong>{{ item.title }}</strong>{% if item.event %}, {{ item.event }}{% endif %}{% if item.location %} ({{ item.location }}){% endif %}</div>
+<div class="news-headline">{% if item.event %}{{ item.event }}{% endif %}{% if item.location %} ({{ item.location }}){% endif %}</div>
 </div>
 {% endfor %}
 </div>
