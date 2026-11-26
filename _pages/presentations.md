@@ -13,9 +13,7 @@ permalink: /presentations/
 # Presentations
 
 
-
 {% assign invited = site.data.talks | where: "type", "invited" %}
-
 {% assign contributed = site.data.talks | where_exp: "t", "t.type != 'invited'" %}
 
 
