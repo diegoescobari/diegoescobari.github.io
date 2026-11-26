@@ -1,10 +1,10 @@
 ---
-title: "Publications"
+title: "Research"
 layout: page
-permalink: /publications/
+permalink: /research/
 ---
 
-# Publications
+# Research
 
 {::nomarkdown}
 <div id="pub-filters" class="section-card pub-filters">
