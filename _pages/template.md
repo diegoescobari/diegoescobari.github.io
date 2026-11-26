@@ -9,18 +9,18 @@ permalink: /template/
 <div class="research-grid">
 
 <div class="research-card">
-<img src="{{ '/images/research/slide_me.jpg' | relative_url }}" class="research-thumb" width="600" height="300" alt="The Instructor">
+<img src="{{ '/images/research/slide_me.jpg' | relative_url }}" class="research-thumb" width="600" height="300" alt="Fall 2026 Office Hours">
 <div class="research-body">
-<h2 class="research-title">The Instructor</h2>
-<p class="research-desc">Teaching undergraduate and graduate economics is one of the most rewarding parts of my career. I genuinely enjoy working closely with students, making econometrics and applied economics clear and practical, while supporting and mentoring them so they can succeed.</p>
+<h2 class="research-title">Fall 2026 Office Hours</h2>
+<p class="research-desc">TR 10:00 a.m. – 12:00 p.m. and by appointment</p>
 </div>
 </div>
 
 <div class="research-card">
-<img src="{{ '/images/research/slide_class.jpg' | relative_url }}" class="research-thumb" width="600" height="300" alt="The Students">
+<img src="{{ '/images/research/slide_forecast.jpg' | relative_url }}" class="research-thumb" width="600" height="300" alt="Business and Economics Forecasting">
 <div class="research-body">
-<h2 class="research-title">The Students</h2>
-<p class="research-desc">Development of the path integral formulation of quantum mechanics and its application to quantum electrodynamics (QED). This work introduced Feynman diagrams as a powerful tool for calculating particle interactions, providing an intuitive visual representation of complex quantum processes.</p>
+<h2 class="research-title">Business and Economics Forecasting</h2>
+<p class="research-desc">Empirical application of econometric techniques to forecasting in business and economics. Starting from regression, model specification, and hypothesis testing, the course examines modern forecasting methods. Students learn to analyze time series data and build models incorporating trend, seasonal, and cyclical components.</p>
 </div>
 </div>
 
