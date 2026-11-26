@@ -24,7 +24,7 @@ permalink: /presentations/
 
 <h2>Invited Presentations</h2>
 
-{% for talk in invited %}{% include presentations.html presentations=presentations %}{% endfor %}
+{% for presentations in invited %}{% include presentations.html presentations=presentations %}{% endfor %}
 
 </div>
 
@@ -38,7 +38,7 @@ permalink: /presentations/
 
 <h2>Contributed Presentations</h2>
 
-{% for talk in contributed %}{% include presentations.html presentations=presentations %}{% endfor %}
+{% for presentations in contributed %}{% include presentations.html presentations=presentations %}{% endfor %}
 
 </div>
 
@@ -46,8 +46,8 @@ permalink: /presentations/
 
 
 
-{% unless site.data.talks.size > 0 %}
+{% unless site.data.presentations.size > 0 %}
 
-<p class="text-muted">No talks listed yet. Add entries to <code>_data/presentations.yml</code>.</p>
+<p class="text-muted">No presentations listed yet. Add entries to <code>_data/presentations.yml</code>.</p>
 
 {% endunless %}
