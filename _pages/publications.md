@@ -283,6 +283,10 @@ document.addEventListener("DOMContentLoaded", function () {
 <div class="section-card pub-section">
 <h2>Non-Refereed Publications</h2>
 
+{% bibliography --query @misc %}
+
+</div>
+
 <div class="section-card pub-section">
 <h2>Working Papers</h2>
 
@@ -290,7 +294,4 @@ document.addEventListener("DOMContentLoaded", function () {
 
 </div>
 
-{% bibliography --query @misc %}
-
-</div>
 </div>
