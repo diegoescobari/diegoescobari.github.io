@@ -65,7 +65,7 @@ Edinburg, TX 78539, USA
   display: none !important;
 }
 .contact-profiles a:hover {
-  text-decoration: underline !important;
+  opacity: 0.75;
   text-underline-offset: 3px;
   border-bottom: none !important;
   box-shadow: none !important;
