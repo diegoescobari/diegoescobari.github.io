@@ -15,7 +15,7 @@ I obtained my PhD in Economics from Texas A&M University. I am currently the Vic
 
 Please use this website to find the links to my research papers and learn about my teaching. Thank you for taking the time.
 
-<h3>Selected Ongoing Research</h3>
+<h2>Selected Ongoing Research</h2>
 
 <div class="research-grid">
 
