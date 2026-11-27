@@ -19,18 +19,50 @@
     <div>
       <h2 class="footer-heading">Links</h2>
 
-<div style="display: grid; grid-template-columns: repeat(2, max-content); gap: 0 28px;">
+<div class="footer-links-grid">
   <div>
-    <div style="margin-bottom: 6px;"><a href="https://scholar.google.com/citations?user=WOnd1RwAAAAJ&hl=en&oi=ao" target="_blank"><i class="ai ai-google-scholar" aria-hidden="true" style="width: 1em; text-align: center; font-size: 1.05em; margin-right: 4px;"></i> Google Scholar</a></div>
-    <div style="margin-bottom: 6px;"><a href="https://www.linkedin.com/in/YOUR_PROFILE" target="_blank"><svg class="icon" aria-hidden="true" focusable="false"><use href="#icon-linkedin"></use></svg> LinkedIn</a></div>
-    <div><a href="https://orcid.org/0000-0003-4532-8563" target="_blank"><i class="ai ai-orcid" aria-hidden="true" style="width: 1em; text-align: center; font-size: 1.05em; margin-right: 4px;"></i> ORCID</a></div>
+    <div><a href="https://scholar.google.com/citations?user=WOnd1RwAAAAJ&hl=en&oi=ao" target="_blank"><i class="ai ai-google-scholar" aria-hidden="true"></i><span>Google Scholar</span></a></div>
+    <div><a href="https://www.linkedin.com/in/escobari/" target="_blank"><svg class="icon" aria-hidden="true" focusable="false"><use href="#icon-linkedin"></use></svg><span>LinkedIn</span></a></div>
+    <div><a href="https://orcid.org/0000-0003-4532-8563" target="_blank"><i class="ai ai-orcid" aria-hidden="true"></i><span>ORCID</span></a></div>
   </div>
   <div>
-    <div style="margin-bottom: 6px;"><a href="https://www.scopus.com/authid/detail.uri?authorId=26029783500" target="_blank"><i class="ai ai-scopus" aria-hidden="true" style="width: 1em; text-align: center; font-size: 1.05em; margin-right: 4px;"></i> Scopus</a></div>
-    <div style="margin-bottom: 6px;"><a href="https://x.com/YOUR_HANDLE" target="_blank"><svg class="icon" aria-hidden="true" focusable="false"><use href="#icon-x-twitter"></use></svg> Twitter</a></div>
-    <div><a href="http://ideas.repec.org/e/pes42.html" target="_blank"><i class="ai ai-ideas-repec" aria-hidden="true" style="width: 1em; text-align: center; font-size: 1.05em; margin-right: 4px;"></i> IDEAS/RePEc</a></div>
+    <div><a href="https://www.scopus.com/authid/detail.uri?authorId=26029783500" target="_blank"><i class="ai ai-scopus" aria-hidden="true"></i><span>Scopus</span></a></div>
+    <div><a href="https://x.com/DiegoEscobari" target="_blank"><svg class="icon" aria-hidden="true" focusable="false"><use href="#icon-x-twitter"></use></svg><span>Twitter</span></a></div>
+    <div><a href="http://ideas.repec.org/e/pes42.html" target="_blank"><i class="ai ai-ideas-repec" aria-hidden="true"></i><span>IDEAS/RePEc</span></a></div>
   </div>
 </div>
+
+<style>
+.footer-links-grid {
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+  gap: 0 28px;
+}
+.footer-links-grid > div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.footer-links-grid a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.footer-links-grid .ai,
+.footer-links-grid svg.icon {
+  width: 18px !important;
+  height: 18px !important;
+  margin: 0 !important;
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-links-grid .ai {
+  font-size: 18px;
+  line-height: 1;
+}
+</style>
       
     </div>
   </div>
