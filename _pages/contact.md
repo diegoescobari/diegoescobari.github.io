@@ -35,7 +35,7 @@ Edinburg, TX 78539, USA
 <li><a href="https://x.com/DiegoEscobari" target="_blank"><svg class="icon" aria-hidden="true" focusable="false"><use href="#icon-x-twitter"></use></svg> (Twitter)</a></li>
 <li><a href="https://ideas.repec.org/e/pes42.html" target="_blank"><i class="ai ai-ideas-repec" aria-hidden="true"></i> IDEAS / RePEc</a></li>
 <li><a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=660414" target="_blank"><i class="ai ai-ssrn" aria-hidden="true"></i> SSRN</a></li>
-<li><a href="https://utrgv.academia.edu/DiegoEscobari" target="_blank"><i class="ai ai-academia" aria-hidden="true"></i> Academia.edu</a></li>
+<li><a href="https://utrgv.academia.edu/DiegoEscobari" target="_blank"><i class="ai ai-academia" aria-hidden="true"></i> Academia</a></li>
 <li><a href="https://www.nber.org/people/diego_escobari" target="_blank"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="2" y="2" width="20" height="20" rx="4" fill="none" stroke="currentColor" stroke-width="1.8"/><text x="12" y="15.5" text-anchor="middle" font-size="10" font-weight="700" font-family="sans-serif" fill="currentColor">NB</text></svg> NBER</a></li>
 </ul>
 
