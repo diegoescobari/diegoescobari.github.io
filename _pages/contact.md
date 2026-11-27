@@ -20,9 +20,9 @@ The University of Texas Rio Grande Valley
 <ul class="contact-details">
 <li class="contact-address"><i class="fa-solid fa-location-dot" aria-hidden="true"></i><span>1201 W. University Drive<br>Edinburg, TX 78539, USA</span></li>
 <li><i class="fa-solid fa-building" aria-hidden="true"></i><span>Office: BUSA 218D</span></li>
-<li><i class="fa-solid fa-envelope" aria-hidden="true"></i><a href="mailto:diego.escobari@utrgv.edu">diego.escobari@utrgv.edu</a></li>
-<li><i class="fa-solid fa-phone" aria-hidden="true"></i><a href="tel:+19566653366">(956) 665-3366</a></li>
-<li><i class="fa-solid fa-fax" aria-hidden="true"></i><span>(956) 665-5020</span></li>
+<li><i class="fa-solid fa-envelope" aria-hidden="true"></i><span>Email: <a href="mailto:diego.escobari@utrgv.edu">diego.escobari@utrgv.edu</a></span></li>
+<li><i class="fa-solid fa-phone" aria-hidden="true"></i><span>Phone: <a href="tel:+19566653366">(956) 665-3366</a></span></li>
+<li><i class="fa-solid fa-fax" aria-hidden="true"></i><span>Fax: (956) 665-5020</span></li>
 </ul>
 
 <style>
