@@ -28,15 +28,15 @@ Edinburg, TX 78539, USA
 
 <ul class="contact-profiles">
 <li><a href="https://scholar.google.com/citations?user=WOnd1RwAAAAJ&hl=en&oi=ao" target="_blank"><i class="ai ai-google-scholar" aria-hidden="true"></i> Google Scholar</a></li>
-<li><a href="https://www.researchgate.net/profile/Diego-Escobari" target="_blank"><i class="ai ai-researchgate" aria-hidden="true"></i> ResearchGate</a></li>
-<li><a href="https://orcid.org/0000-0003-4532-8563" target="_blank"><i class="ai ai-orcid" aria-hidden="true"></i> ORCID</a></li>
-<li><a href="https://ideas.repec.org/e/pes42.html" target="_blank"><i class="ai ai-ideas-repec" aria-hidden="true"></i> IDEAS / RePEc</a></li>
-<li><a href="https://www.scopus.com/authid/detail.uri?authorId=26029783500" target="_blank"><i class="ai ai-scopus" aria-hidden="true"></i> Scopus</a></li>
-<li><a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=660414" target="_blank"><i class="ai ai-ssrn" aria-hidden="true"></i> SSRN</a></li>
-<li><a href="https://www.nber.org/people/diego_escobari" target="_blank"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="2" y="2" width="20" height="20" rx="4" fill="none" stroke="currentColor" stroke-width="1.8"/><text x="12" y="15.5" text-anchor="middle" font-size="10" font-weight="700" font-family="sans-serif" fill="currentColor">NB</text></svg> NBER</a></li>
-<li><a href="https://utrgv.academia.edu/DiegoEscobari" target="_blank"><i class="ai ai-academia" aria-hidden="true"></i> Academia.edu</a></li>
-<li><a href="https://x.com/DiegoEscobari" target="_blank"><svg class="icon" aria-hidden="true" focusable="false"><use href="#icon-x-twitter"></use></svg> X (Twitter)</a></li>
 <li><a href="https://www.linkedin.com/in/escobari/" target="_blank"><svg class="icon" aria-hidden="true" focusable="false"><use href="#icon-linkedin"></use></svg> LinkedIn</a></li>
+<li><a href="https://orcid.org/0000-0003-4532-8563" target="_blank"><i class="ai ai-orcid" aria-hidden="true"></i> ORCID</a></li>
+<li><a href="https://www.scopus.com/authid/detail.uri?authorId=26029783500" target="_blank"><i class="ai ai-scopus" aria-hidden="true"></i> Scopus</a></li>
+<li><a href="https://www.researchgate.net/profile/Diego-Escobari" target="_blank"><i class="ai ai-researchgate" aria-hidden="true"></i> ResearchGate</a></li>
+<li><a href="https://x.com/DiegoEscobari" target="_blank"><svg class="icon" aria-hidden="true" focusable="false"><use href="#icon-x-twitter"></use></svg> (Twitter)</a></li>
+<li><a href="https://ideas.repec.org/e/pes42.html" target="_blank"><i class="ai ai-ideas-repec" aria-hidden="true"></i> IDEAS / RePEc</a></li>
+<li><a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=660414" target="_blank"><i class="ai ai-ssrn" aria-hidden="true"></i> SSRN</a></li>
+<li><a href="https://utrgv.academia.edu/DiegoEscobari" target="_blank"><i class="ai ai-academia" aria-hidden="true"></i> Academia.edu</a></li>
+<li><a href="https://www.nber.org/people/diego_escobari" target="_blank"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="2" y="2" width="20" height="20" rx="4" fill="none" stroke="currentColor" stroke-width="1.8"/><text x="12" y="15.5" text-anchor="middle" font-size="10" font-weight="700" font-family="sans-serif" fill="currentColor">NB</text></svg> NBER</a></li>
 </ul>
 
 <style>
