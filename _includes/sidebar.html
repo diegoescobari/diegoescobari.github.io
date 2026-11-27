@@ -6,7 +6,7 @@
 <p class="profile-title">{{ site.title }}</p>
 <p class="profile-institution">{{ site.institution }}</p>
 <div class="profile-links">
-{% if site.links.google_scholar and site.links.google_scholar != "" %}<a href="{{ site.links.google_scholar }}" class="icon-link" title="Google Scholar" aria-label="Google Scholar" target="_blank"><i class="ai ai-google-scholar" aria-hidden="true" style="font-size: 1.25rem;"></i></a>{% endif %}{% if site.links.linkedin and site.links.linkedin != "" %}<a href="{{ site.links.linkedin }}" class="icon-link" title="LinkedIn" aria-label="LinkedIn">{% include icon.html name="linkedin" %}</a>{% endif %}
+{% if site.links.google_scholar and site.links.google_scholar != "" %}<a href="{{ site.links.google_scholar }}" class="icon-link" title="Google Scholar" aria-label="Google Scholar" target="_blank"><i class="ai ai-google-scholar" aria-hidden="true" style="font-size: 1.25rem;"></i></a>{% endif %}
 {% if site.links.linkedin and site.links.linkedin != "" %}<a href="{{ site.links.linkedin }}" class="icon-link" title="LinkedIn" aria-label="LinkedIn" target="_blank"><i class="fa-brands fa-linkedin" aria-hidden="true" style="font-size: 1.25rem;"></i></a>{% endif %}
 {% if site.links.orcid and site.links.orcid != "" %}<a href="{{ site.links.orcid }}" class="icon-link" title="ORCID" aria-label="ORCID">{% include icon.html name="orcid" %}</a>{% endif %}
 <a href="https://www.scopus.com/authid/detail.uri?authorId=26029783500" class="icon-link" title="Scopus" aria-label="Scopus" target="_blank"><i class="ai ai-scopus" aria-hidden="true" style="font-size: 1.25rem;"></i></a>
