@@ -50,15 +50,28 @@ Edinburg, TX 78539, USA
   grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
   gap: 10px 16px;
 }
+
+ 
 .contact-profiles a {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  text-decoration: none;
+  text-decoration: none !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+}
+.contact-profiles a::after {
+  content: none !important;
+  display: none !important;
 }
 .contact-profiles a:hover {
-  text-decoration: underline;
+  text-decoration: underline !important;
+  text-underline-offset: 3px;
+  border-bottom: none !important;
+  box-shadow: none !important;
 }
+
+ 
 .contact-profiles .icon {
   width: 18px;
   height: 18px;
