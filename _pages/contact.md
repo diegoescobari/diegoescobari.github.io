@@ -12,7 +12,7 @@ permalink: /contact/
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
 **Diego Escobari**  
-Associate Director & Professor of Economics  
+Professor & Associate Director  
 School of Economics and Finance  
 Robert C. Vackar College of Business and Entrepreneurship  
 The University of Texas Rio Grande Valley  
