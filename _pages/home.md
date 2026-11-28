@@ -7,13 +7,10 @@ permalink: /
 <h1 class="home-hero">{{ site.name }}</h1>
 <p class="home-hero-sub">{{ site.title }}, {{ site.institution }}</p>
 
-I am an applied econometrician who is fascinated with working with data to draw inferences and explore economic questions. Most of my research focuses on studying demand, as well as explaining pricing and interactions in markets with individual level data. I have empirical and theoretical work on various aspects of pricing, including pricing under uncertainty, peak-load pricing, dynamic pricing, refund contracts, dynamic price discrimination, spatial competition, asymmetric pricing, bundling, loyalty programs, and explosiveness and bubbles.
-
-Many of the tools and insights in my work to understand pricing and demand uses data from airlines. I also explored other markets, including contributions to explain behavior in real estate markets and investments. I am also interested on peer-to-peer lending markets and information systems.
-
-I obtained my PhD in Economics from Texas A&M University. I am currently the Vice President and President-elect of the Society of Bolivian Economists as well as the PhD Program Director and Professor of Economics in the Robert C. Vackar College of Business & Entrepreneurship at The University of Texas Rio Grande Valley. I regularly teach undergraduate and PhD econometrics classes.
-
-Please use this website to find the links to my research papers and learn about my teaching. Thank you for taking the time.
+I am an applied econometrician fascinated by using data to draw inferences and explore economic questions. Most of my research examines demand, pricing, and market interactions using individual-level data. My empirical and theoretical work covers a broad range of pricing topics, including pricing under uncertainty, peak-load pricing, dynamic pricing, refund contracts, dynamic price discrimination, spatial competition, asymmetric pricing, bundling, loyalty programs, and price explosiveness and bubbles.
+Many of the tools and insights from my early work on pricing have also helped me study behavior in real estate markets and investments. Beyond pricing, my research interests extend to political economy, finance, and information systems.
+I earned my PhD in Economics from Texas A&M University. I am currently the Associate Director of the School of Economics & Finance in the Robert C. Vackar College of Business & Entrepreneurship at The University of Texas Rio Grande Valley, where I regularly teach undergraduate and PhD econometrics and previously served as the college's PhD Program Director. I have also served as Vice President and President of the Society of Bolivian Economists.
+Feel free to use this website to access my research papers and learn more about my teaching. Thank you for visiting.
 
 <h3 style="margin-bottom: 30px;">Selected Ongoing Research</h3>
 
